@@ -1,0 +1,1186 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18425 ]
+[d frameptr 6 ]
+"152 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.h
+[e E10464 . `uc
+AS7341_GAIN_0_5X 0
+AS7341_GAIN_1X 1
+AS7341_GAIN_2X 2
+AS7341_GAIN_4X 3
+AS7341_GAIN_8X 4
+AS7341_GAIN_16X 5
+AS7341_GAIN_32X 6
+AS7341_GAIN_64X 7
+AS7341_GAIN_128X 8
+AS7341_GAIN_256X 9
+AS7341_GAIN_512X 10
+]
+"101 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+[e E10444 . `uc
+F1F4ClearNIR 0
+F5F8ClearNIR 1
+]
+"152 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.h
+[e E245 . `uc
+AS7341_GAIN_0_5X 0
+AS7341_GAIN_1X 1
+AS7341_GAIN_2X 2
+AS7341_GAIN_4X 3
+AS7341_GAIN_8X 4
+AS7341_GAIN_16X 5
+AS7341_GAIN_32X 6
+AS7341_GAIN_64X 7
+AS7341_GAIN_128X 8
+AS7341_GAIN_256X 9
+AS7341_GAIN_512X 10
+]
+"10 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[e E215 . `uc
+SPM 0
+SYNS 1
+SYND 3
+]
+"11
+[e E277 . `uc
+AS7341_GPIO_OUTPUT 0
+AS7341_GPIO_INPUT 1
+]
+"198
+[e E225 . `uc
+F1F4ClearNIR 0
+F5F8ClearNIR 1
+]
+"581
+[e E259 . `uc
+AS7341_INT_COUNT_ALL 0
+AS7341_INT_COUNT_1 1
+AS7341_INT_COUNT_2 2
+AS7341_INT_COUNT_3 3
+AS7341_INT_COUNT_5 4
+AS7341_INT_COUNT_10 5
+AS7341_INT_COUNT_15 6
+AS7341_INT_COUNT_20 7
+AS7341_INT_COUNT_25 8
+AS7341_INT_COUNT_30 9
+AS7341_INT_COUNT_35 10
+AS7341_INT_COUNT_40 11
+AS7341_INT_COUNT_45 12
+AS7341_INT_COUNT_50 13
+AS7341_INT_COUNT_55 14
+AS7341_INT_COUNT_60 15
+]
+"477 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isalpha.c
+[v _isalpha isalpha `(b  1 e 0 0 ]
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isprint.c
+[v _isprint isprint `(b  1 e 0 0 ]
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isspace.c
+[v _isspace isspace `(b  1 e 0 0 ]
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isupper.c
+[v _isupper isupper `(b  1 e 0 0 ]
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+[v _strtol strtol `(l  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+[v _toupper toupper `(uc  1 e 1 0 ]
+"15 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v2.40/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"13 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _as7341_begin as7341_begin `(v  1 e 1 0 ]
+"33
+[v _as7341_init as7341_init `(v  1 e 1 0 ]
+"48
+[v _as7341_power_enable as7341_power_enable `(v  1 e 1 0 ]
+"58
+[v _enable_sp_en enable_sp_en `(v  1 e 1 0 ]
+"67
+[v _enable_smux enable_smux `(v  1 e 1 0 ]
+"88
+[v _as7341_config as7341_config `(v  1 e 1 0 ]
+"111
+[v _set_F1F4ClearNIR set_F1F4ClearNIR `(v  1 e 1 0 ]
+"141
+[v _set_F5F8ClearNIR set_F5F8ClearNIR `(v  1 e 1 0 ]
+"169
+[v _as7341_write_byte as7341_write_byte `(v  1 e 1 0 ]
+"198
+[v _as7341_start_measurement as7341_start_measurement `(v  1 e 1 0 ]
+"246
+[v _get_channel_data get_channel_data `(ui  1 e 2 0 ]
+"119 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.h
+[s S166 . 12 `ui 1 ADC_CHANNEL_F1 2 0 `ui 1 ADC_CHANNEL_F2 2 2 `ui 1 ADC_CHANNEL_F3 2 4 `ui 1 ADC_CHANNEL_F4 2 6 `ui 1 ADC_CHANNEL_CLEAR 2 8 `ui 1 ADC_CHANNEL_NIR 2 10 ]
+"259 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _readSpectralDataOne readSpectralDataOne `(S166  1 e 12 0 ]
+"128 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.h
+[s S173 . 12 `ui 1 ADC_CHANNEL_F5 2 0 `ui 1 ADC_CHANNEL_F6 2 2 `ui 1 ADC_CHANNEL_F7 2 4 `ui 1 ADC_CHANNEL_F8 2 6 `ui 1 ADC_CHANNEL_CLEAR 2 8 `ui 1 ADC_CHANNEL_NIR 2 10 ]
+"272 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _readSpectralDataTwo readSpectralDataTwo `(S173  1 e 12 0 ]
+"289
+[v _as7341_smux_cmd_config as7341_smux_cmd_config `(v  1 e 1 0 ]
+"297
+[v _set_GPIO_mode set_GPIO_mode `(v  1 e 1 0 ]
+"312
+[v _set_bank set_bank `(uc  1 e 1 0 ]
+"322
+[v _set_ATIME set_ATIME `(uc  1 e 1 0 ]
+"331
+[v _set_ASTEP set_ASTEP `(uc  1 e 1 0 ]
+"342
+[v _set_AGAIN set_AGAIN `(uc  1 e 1 0 ]
+"366
+[v _as7341_enableLED as7341_enableLED `(uc  1 e 1 0 ]
+"386
+[v _control_LED control_LED `(v  1 e 1 0 ]
+"608
+[v _as7341_i2c_write as7341_i2c_write `(uc  1 e 1 0 ]
+"622
+[v _as7341_i2c_read as7341_i2c_read `(uc  1 e 1 0 ]
+"66 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"9 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+[v _i2c_master_init i2c_master_init `(v  1 e 1 0 ]
+"29
+[v _I2C_Wait I2C_Wait `(v  1 e 1 0 ]
+"33
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"51
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"61
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+"76
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"14 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+[v _i2c_slave_init i2c_slave_init `(v  1 e 1 0 ]
+"32
+[v _i2c_slave_set_register i2c_slave_set_register `(v  1 e 1 0 ]
+"36
+[v _i2c_slave_get_register i2c_slave_get_register `(uc  1 e 1 0 ]
+"65
+[v _i2c_slave_interrupt i2c_slave_interrupt `(v  1 e 1 0 ]
+"121
+[v _dump_memory_map dump_memory_map `(v  1 e 1 0 ]
+"18 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+[v _get_ticks_with_lock get_ticks_with_lock `(ul  1 e 4 0 ]
+"26
+[v _calculate_diff calculate_diff `(ul  1 e 4 0 ]
+"42
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"59
+[v _main main `(v  1 e 1 0 ]
+"50 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"51 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"7 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+[v _dump_buffer dump_buffer `(v  1 e 1 0 ]
+"5 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+[v _tmr0_init tmr0_init `(v  1 e 1 0 ]
+[s S136 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"427 /Applications/microchip/xc8/v2.40/pic/include/proc/pic16f18425.h
+[u S141 . 1 `S136 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES141  1 e 1 @11 ]
+"547
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"597
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+[s S306 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"612
+[u S313 . 1 `S306 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES313  1 e 1 @20 ]
+"647
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"697
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"4860
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"4914
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"4975
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"5045
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"5099
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S928 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"5125
+[u S937 . 1 `S928 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES937  1 e 1 @285 ]
+"5279
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S907 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5305
+[u S916 . 1 `S907 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES916  1 e 1 @286 ]
+"5459
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"5705
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @396 ]
+"5725
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @397 ]
+"5845
+[v _SSP1MSK SSP1MSK `VEuc  1 e 1 @398 ]
+"5915
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @399 ]
+[s S482 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"6024
+[s S491 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S496 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S506 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S511 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S517 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S526 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S532 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S538 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S544 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S549 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S554 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S559 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S564 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S569 . 1 `S482 1 . 1 0 `S491 1 . 1 0 `S496 1 . 1 0 `S501 1 . 1 0 `S506 1 . 1 0 `S511 1 . 1 0 `S517 1 . 1 0 `S526 1 . 1 0 `S532 1 . 1 0 `S538 1 . 1 0 `S544 1 . 1 0 `S549 1 . 1 0 `S554 1 . 1 0 `S559 1 . 1 0 `S564 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES569  1 e 1 @399 ]
+"6279
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @400 ]
+[s S751 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"6309
+[s S757 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S762 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S771 . 1 `S751 1 . 1 0 `S757 1 . 1 0 `S762 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES771  1 e 1 @400 ]
+"6399
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @401 ]
+[s S327 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6446
+[s S336 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S339 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S692 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S701 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S708 . 1 `S327 1 . 1 0 `S336 1 . 1 0 `S339 1 . 1 0 `S692 1 . 1 0 `S701 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES708  1 e 1 @401 ]
+"6648
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @406 ]
+"6668
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @407 ]
+"6858
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @409 ]
+"7222
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @410 ]
+"7342
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @411 ]
+"7389
+[s S346 . 1 `uc 1 SEN2 1 0 :1:0 
+`uc 1 ADMSK12 1 0 :1:1 
+`uc 1 ADMSK22 1 0 :1:2 
+`uc 1 ADMSK32 1 0 :1:3 
+`uc 1 ACKEN2 1 0 :1:4 
+`uc 1 ACKDT2 1 0 :1:5 
+`uc 1 ACKSTAT2 1 0 :1:6 
+`uc 1 GCEN2 1 0 :1:7 
+]
+[s S355 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN2 1 0 :1:1 
+`uc 1 PEN2 1 0 :1:2 
+`uc 1 RCEN2 1 0 :1:3 
+`uc 1 ADMSK42 1 0 :1:4 
+`uc 1 ADMSK52 1 0 :1:5 
+]
+[u S362 . 1 `S327 1 . 1 0 `S336 1 . 1 0 `S339 1 . 1 0 `S346 1 . 1 0 `S355 1 . 1 0 ]
+[v _SSP2CON2bits SSP2CON2bits `VES362  1 e 1 @411 ]
+"16519
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"16657
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"16911
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+"17009
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S86 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"18802
+[u S91 . 1 `S86 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES91  1 e 1 @1804 ]
+[s S99 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+"18909
+[u S106 . 1 `S99 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES106  1 e 1 @1807 ]
+[s S1033 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"19173
+[u S1038 . 1 `S1033 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES1038  1 e 1 @1814 ]
+[s S464 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+"19280
+[u S471 . 1 `S464 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES471  1 e 1 @1817 ]
+"19540
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"19585
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"19641
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"19662
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"19707
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"19758
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"19785
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"19818
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"20891
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21031
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21128
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21179
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21237
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"28299
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @7877 ]
+"28351
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @7878 ]
+"28455
+[v _SSP2CLKPPS SSP2CLKPPS `VEuc  1 e 1 @7880 ]
+"28507
+[v _SSP2DATPPS SSP2DATPPS `VEuc  1 e 1 @7881 ]
+"28947
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @7957 ]
+"29005
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @7968 ]
+"29063
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @7969 ]
+"29237
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @7972 ]
+"29295
+[v _RC5PPS RC5PPS `VEuc  1 e 1 @7973 ]
+"29353
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"29398
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"29448
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"29493
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"29538
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"29738
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+[s S289 . 1 `uc 1 ANSC0 1 0 :1:0 
+`uc 1 ANSC1 1 0 :1:1 
+`uc 1 ANSC2 1 0 :1:2 
+`uc 1 ANSC3 1 0 :1:3 
+`uc 1 ANSC4 1 0 :1:4 
+`uc 1 ANSC5 1 0 :1:5 
+]
+"29753
+[u S296 . 1 `S289 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES296  1 e 1 @8014 ]
+"29788
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"29838
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"29888
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"29938
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"30520
+[v _ACKDT2 ACKDT2 `VEb  1 e 0 @3293 ]
+"30526
+[v _ACKEN2 ACKEN2 `VEb  1 e 0 @3292 ]
+"32779
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"358 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"366
+[v _hexpowers hexpowers `DC[4]ui  1 s 8 hexpowers ]
+"10 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _measurement_mode measurement_mode `E215  1 e 1 0 ]
+[s S851 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+[u S856 . 1 `S851 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES856  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"12 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+[v _slaveData slaveData `VE[64]uc  1 s 64 slaveData ]
+"56
+[v _currentRegister currentRegister `uc  1 s 1 currentRegister ]
+"62
+[v _currentState currentState `uc  1 s 1 currentState ]
+"16 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+[v _ticks ticks `VEul  1 e 4 0 ]
+"59
+[v _main main `(v  1 e 1 0 ]
+{
+"147
+[v main@buffer buffer `[3]uc  1 a 3 1 ]
+"151
+[v main@value value `uc  1 a 1 0 ]
+"146
+[v main@i i `uc  1 a 1 8 ]
+"87
+[v main@now now `ul  1 a 4 4 ]
+[s S166 . 12 `ui 1 ADC_CHANNEL_F1 2 0 `ui 1 ADC_CHANNEL_F2 2 2 `ui 1 ADC_CHANNEL_F3 2 4 `ui 1 ADC_CHANNEL_F4 2 6 `ui 1 ADC_CHANNEL_CLEAR 2 8 `ui 1 ADC_CHANNEL_NIR 2 10 ]
+"82
+[v main@data1 data1 `S166  1 a 12 21 ]
+[s S173 . 12 `ui 1 ADC_CHANNEL_F5 2 0 `ui 1 ADC_CHANNEL_F6 2 2 `ui 1 ADC_CHANNEL_F7 2 4 `ui 1 ADC_CHANNEL_F8 2 6 `ui 1 ADC_CHANNEL_CLEAR 2 8 `ui 1 ADC_CHANNEL_NIR 2 10 ]
+"83
+[v main@data2 data2 `S173  1 a 12 9 ]
+"88
+[v main@prev_ticks1 prev_ticks1 `ul  1 s 4 prev_ticks1 ]
+"162
+} 0
+"5 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+[v _tmr0_init tmr0_init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+[v _strtol strtol `(l  1 e 4 0 ]
+{
+[v strtol@s s `*.4DCuc  1 a 1 wreg ]
+"7
+[v strtol@a a `l  1 a 4 21 ]
+"8
+[v strtol@c c `uc  1 a 1 26 ]
+[v strtol@sign sign `uc  1 a 1 20 ]
+"5
+[v strtol@s s `*.4DCuc  1 a 1 wreg ]
+[v strtol@endptr endptr `*.1*.4uc  1 p 1 12 ]
+[v strtol@base base `i  1 p 2 13 ]
+[v strtol@s s `*.4DCuc  1 a 1 25 ]
+"47
+} 0
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+[v _toupper toupper `(uc  1 e 1 0 ]
+{
+[v toupper@c c `uc  1 a 1 wreg ]
+[v toupper@c c `uc  1 a 1 wreg ]
+"10
+[v toupper@c c `uc  1 a 1 5 ]
+"13
+} 0
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isspace.c
+[v _isspace isspace `(b  1 e 0 0 ]
+{
+[v isspace@c c `uc  1 a 1 wreg ]
+[v isspace@c c `uc  1 a 1 wreg ]
+"14
+[v isspace@c c `uc  1 a 1 5 ]
+"15
+} 0
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isalpha.c
+[v _isalpha isalpha `(b  1 e 0 0 ]
+{
+[v isalpha@c c `uc  1 a 1 wreg ]
+[v isalpha@c c `uc  1 a 1 wreg ]
+"14
+[v isalpha@c c `uc  1 a 1 1 ]
+"15
+} 0
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isupper.c
+[v _isupper isupper `(b  1 e 0 0 ]
+{
+[v isupper@c c `uc  1 a 1 wreg ]
+[v isupper@c c `uc  1 a 1 wreg ]
+"14
+[v isupper@c c `uc  1 a 1 5 ]
+"15
+} 0
+"15 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"128 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.h
+[s S173 . 12 `ui 1 ADC_CHANNEL_F5 2 0 `ui 1 ADC_CHANNEL_F6 2 2 `ui 1 ADC_CHANNEL_F7 2 4 `ui 1 ADC_CHANNEL_F8 2 6 `ui 1 ADC_CHANNEL_CLEAR 2 8 `ui 1 ADC_CHANNEL_NIR 2 10 ]
+"272 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _readSpectralDataTwo readSpectralDataTwo `(S173  1 e 12 0 ]
+{
+"273
+[v readSpectralDataTwo@data data `S173  1 a 12 26 ]
+"281
+} 0
+"119 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.h
+[s S166 . 12 `ui 1 ADC_CHANNEL_F1 2 0 `ui 1 ADC_CHANNEL_F2 2 2 `ui 1 ADC_CHANNEL_F3 2 4 `ui 1 ADC_CHANNEL_F4 2 6 `ui 1 ADC_CHANNEL_CLEAR 2 8 `ui 1 ADC_CHANNEL_NIR 2 10 ]
+"259 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _readSpectralDataOne readSpectralDataOne `(S166  1 e 12 0 ]
+{
+"260
+[v readSpectralDataOne@data data `S166  1 a 12 26 ]
+"268
+} 0
+"246
+[v _get_channel_data get_channel_data `(ui  1 e 2 0 ]
+{
+[v get_channel_data@channel channel `uc  1 a 1 wreg ]
+"247
+[v get_channel_data@data data `[2]ui  1 a 4 6 ]
+"248
+[v get_channel_data@channelData channelData `ui  1 a 2 11 ]
+"246
+[v get_channel_data@channel channel `uc  1 a 1 wreg ]
+[v get_channel_data@channel channel `uc  1 a 1 10 ]
+"255
+} 0
+"32 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+[v _i2c_slave_set_register i2c_slave_set_register `(v  1 e 1 0 ]
+{
+[v i2c_slave_set_register@registerAddress registerAddress `uc  1 a 1 wreg ]
+[v i2c_slave_set_register@registerAddress registerAddress `uc  1 a 1 wreg ]
+[v i2c_slave_set_register@value value `uc  1 p 1 4 ]
+[v i2c_slave_set_register@registerAddress registerAddress `uc  1 a 1 5 ]
+"34
+} 0
+"14
+[v _i2c_slave_init i2c_slave_init `(v  1 e 1 0 ]
+{
+"27
+[v i2c_slave_init@i i `uc  1 a 1 5 ]
+"30
+} 0
+"9 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+[v _i2c_master_init i2c_master_init `(v  1 e 1 0 ]
+{
+"20
+} 0
+"18 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+[v _get_ticks_with_lock get_ticks_with_lock `(ul  1 e 4 0 ]
+{
+"20
+[v get_ticks_with_lock@result result `ul  1 a 4 4 ]
+"23
+} 0
+"121 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+[v _dump_memory_map dump_memory_map `(v  1 e 1 0 ]
+{
+"123
+} 0
+"7 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+[v _dump_buffer dump_buffer `(v  1 e 1 0 ]
+{
+[v dump_buffer@buffer buffer `*.5DCv  1 a 1 wreg ]
+"9
+[v dump_buffer@j j `ui  1 a 2 57 ]
+[v dump_buffer@i i `ui  1 a 2 55 ]
+"8
+[v dump_buffer@p p `*.5DCuc  1 a 1 54 ]
+"7
+[v dump_buffer@buffer buffer `*.5DCv  1 a 1 wreg ]
+[v dump_buffer@size size `ui  1 p 2 45 ]
+[v dump_buffer@buffer buffer `*.5DCv  1 a 1 51 ]
+"28
+} 0
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isprint.c
+[v _isprint isprint `(b  1 e 0 0 ]
+{
+[v isprint@c c `uc  1 a 1 wreg ]
+[v isprint@c c `uc  1 a 1 wreg ]
+"14
+[v isprint@c c `uc  1 a 1 5 ]
+"15
+} 0
+"386 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _control_LED control_LED `(v  1 e 1 0 ]
+{
+[v control_LED@LED LED `uc  1 a 1 wreg ]
+"387
+[v control_LED@data data `uc  1 a 1 7 ]
+"386
+[v control_LED@LED LED `uc  1 a 1 wreg ]
+[v control_LED@current current `uc  1 p 1 4 ]
+[v control_LED@LED LED `uc  1 a 1 6 ]
+"402
+} 0
+"26 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+[v _calculate_diff calculate_diff `(ul  1 e 4 0 ]
+{
+"27
+[v calculate_diff@diff diff `ul  1 a 4 16 ]
+"26
+[v calculate_diff@now now `ul  1 p 4 0 ]
+[v calculate_diff@prev_ticks prev_ticks `ul  1 p 4 4 ]
+"35
+} 0
+"198 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _as7341_start_measurement as7341_start_measurement `(v  1 e 1 0 ]
+{
+[v as7341_start_measurement@channel channel `E225  1 a 1 wreg ]
+"199
+[v as7341_start_measurement@data data `uc  1 a 1 47 ]
+"198
+[v as7341_start_measurement@channel channel `E225  1 a 1 wreg ]
+[v as7341_start_measurement@channel channel `E225  1 a 1 46 ]
+"228
+} 0
+"297
+[v _set_GPIO_mode set_GPIO_mode `(v  1 e 1 0 ]
+{
+[v set_GPIO_mode@mode mode `uc  1 a 1 wreg ]
+"298
+[v set_GPIO_mode@data data `uc  1 a 1 3 ]
+"297
+[v set_GPIO_mode@mode mode `uc  1 a 1 wreg ]
+"299
+[v set_GPIO_mode@mode mode `uc  1 a 1 2 ]
+"308
+} 0
+"141
+[v _set_F5F8ClearNIR set_F5F8ClearNIR `(v  1 e 1 0 ]
+{
+"168
+} 0
+"111
+[v _set_F1F4ClearNIR set_F1F4ClearNIR `(v  1 e 1 0 ]
+{
+"139
+} 0
+"169
+[v _as7341_write_byte as7341_write_byte `(v  1 e 1 0 ]
+{
+[v as7341_write_byte@reg reg `uc  1 a 1 wreg ]
+[v as7341_write_byte@reg reg `uc  1 a 1 wreg ]
+[v as7341_write_byte@value value `uc  1 p 1 5 ]
+[v as7341_write_byte@reg reg `uc  1 a 1 0 ]
+"172
+} 0
+"58
+[v _enable_sp_en enable_sp_en `(v  1 e 1 0 ]
+{
+[v enable_sp_en@state state `uc  1 a 1 wreg ]
+"59
+[v enable_sp_en@regVal regVal `uc  1 a 1 7 ]
+"58
+[v enable_sp_en@state state `uc  1 a 1 wreg ]
+[v enable_sp_en@state state `uc  1 a 1 4 ]
+"61
+} 0
+"67
+[v _enable_smux enable_smux `(v  1 e 1 0 ]
+{
+[v enable_smux@state state `uc  1 a 1 wreg ]
+"68
+[v enable_smux@regVal regVal `uc  1 a 1 3 ]
+"67
+[v enable_smux@state state `uc  1 a 1 wreg ]
+[v enable_smux@state state `uc  1 a 1 2 ]
+"76
+} 0
+"289
+[v _as7341_smux_cmd_config as7341_smux_cmd_config `(v  1 e 1 0 ]
+{
+"291
+} 0
+"88
+[v _as7341_config as7341_config `(v  1 e 1 0 ]
+{
+[v as7341_config@mode mode `E215  1 a 1 wreg ]
+"89
+[v as7341_config@data data `uc  1 a 1 5 ]
+"88
+[v as7341_config@mode mode `E215  1 a 1 wreg ]
+[v as7341_config@mode mode `E215  1 a 1 4 ]
+"107
+} 0
+"13
+[v _as7341_begin as7341_begin `(v  1 e 1 0 ]
+{
+"31
+} 0
+"322
+[v _set_ATIME set_ATIME `(uc  1 e 1 0 ]
+{
+[v set_ATIME@value value `uc  1 a 1 wreg ]
+[v set_ATIME@value value `uc  1 a 1 wreg ]
+[v set_ATIME@value value `uc  1 a 1 2 ]
+"324
+} 0
+"331
+[v _set_ASTEP set_ASTEP `(uc  1 e 1 0 ]
+{
+"332
+[v set_ASTEP@low_value low_value `uc  1 a 1 6 ]
+[v set_ASTEP@high_value high_value `uc  1 a 1 5 ]
+"331
+[v set_ASTEP@value value `ui  1 p 2 2 ]
+"340
+} 0
+"342
+[v _set_AGAIN set_AGAIN `(uc  1 e 1 0 ]
+{
+[v set_AGAIN@value value `E245  1 a 1 wreg ]
+[v set_AGAIN@value value `E245  1 a 1 wreg ]
+[v set_AGAIN@value value `E245  1 a 1 2 ]
+"345
+} 0
+"33
+[v _as7341_init as7341_init `(v  1 e 1 0 ]
+{
+[v as7341_init@mode mode `E215  1 a 1 wreg ]
+"34
+[v as7341_init@as7341_id as7341_id `uc  1 a 1 59 ]
+"33
+[v as7341_init@mode mode `E215  1 a 1 wreg ]
+[v as7341_init@mode mode `E215  1 a 1 58 ]
+"42
+} 0
+"48
+[v _as7341_power_enable as7341_power_enable `(v  1 e 1 0 ]
+{
+[v as7341_power_enable@state state `uc  1 a 1 wreg ]
+"49
+[v as7341_power_enable@regVal regVal `uc  1 a 1 53 ]
+"51
+[v as7341_power_enable@flag flag `uc  1 a 1 48 ]
+"48
+[v as7341_power_enable@state state `uc  1 a 1 wreg ]
+[v as7341_power_enable@state state `uc  1 a 1 47 ]
+"54
+} 0
+"477 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1526
+[v printf@idx idx `uc  1 a 1 30 ]
+"514
+[v printf@width width `i  1 a 2 42 ]
+"546
+[v printf@len len `ui  1 a 2 39 ]
+"545
+[v printf@val val `ui  1 a 2 36 ]
+"547
+[v printf@cp cp `*.26DCuc  1 a 2 34 ]
+"512
+[v printf@c c `uc  1 a 1 44 ]
+"525
+[v printf@flag flag `uc  1 a 1 41 ]
+"479
+[v printf@ap ap `[1]*.4v  1 a 1 38 ]
+"521
+[v printf@prec prec `c  1 a 1 33 ]
+"477
+[v printf@f f `*.25DCuc  1 p 2 12 ]
+"1567
+} 0
+"146 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 5 ]
+"149
+} 0
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 4 ]
+"139
+} 0
+"8 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 5 ]
+"15
+} 0
+"15 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 /Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"366 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+[v _as7341_enableLED as7341_enableLED `(uc  1 e 1 0 ]
+{
+[v as7341_enableLED@state state `uc  1 a 1 wreg ]
+"367
+[v as7341_enableLED@data data `uc  1 a 1 6 ]
+"368
+[v as7341_enableLED@data1 data1 `uc  1 a 1 5 ]
+"366
+[v as7341_enableLED@state state `uc  1 a 1 wreg ]
+"368
+[v as7341_enableLED@state state `uc  1 a 1 4 ]
+"381
+} 0
+"312
+[v _set_bank set_bank `(uc  1 e 1 0 ]
+{
+[v set_bank@state state `uc  1 a 1 wreg ]
+"313
+[v set_bank@regVal regVal `uc  1 a 1 3 ]
+"312
+[v set_bank@state state `uc  1 a 1 wreg ]
+[v set_bank@state state `uc  1 a 1 2 ]
+"320
+} 0
+"608
+[v _as7341_i2c_write as7341_i2c_write `(uc  1 e 1 0 ]
+{
+[v as7341_i2c_write@reg reg `uc  1 a 1 wreg ]
+"609
+[v as7341_i2c_write@data data `uc  1 a 1 1 ]
+"608
+[v as7341_i2c_write@reg reg `uc  1 a 1 wreg ]
+[v as7341_i2c_write@value value `uc  1 p 1 5 ]
+"610
+[v as7341_i2c_write@reg reg `uc  1 a 1 0 ]
+"621
+} 0
+"622
+[v _as7341_i2c_read as7341_i2c_read `(uc  1 e 1 0 ]
+{
+[v as7341_i2c_read@reg reg `uc  1 a 1 wreg ]
+"623
+[v as7341_i2c_read@buf buf `uc  1 a 1 1 ]
+"622
+[v as7341_i2c_read@reg reg `uc  1 a 1 wreg ]
+"624
+[v as7341_i2c_read@reg reg `uc  1 a 1 0 ]
+"632
+} 0
+"61 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+{
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+"64
+[v I2C_Write@data data `uc  1 a 1 4 ]
+"74
+} 0
+"51
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"59
+} 0
+"29
+[v _I2C_Wait I2C_Wait `(v  1 e 1 0 ]
+{
+"31
+} 0
+"33
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"39
+} 0
+"76
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+{
+[v I2C_Read@a a `uc  1 a 1 wreg ]
+"83
+[v I2C_Read@temp temp `uc  1 a 1 5 ]
+"76
+[v I2C_Read@a a `uc  1 a 1 wreg ]
+"78
+[v I2C_Read@a a `uc  1 a 1 4 ]
+"91
+} 0
+"50 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"89
+} 0
+"51 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"57 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"66 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"172
+} 0
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"168
+} 0
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"176
+} 0
+"42 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"54
+} 0
+"65 /Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+[v _i2c_slave_interrupt i2c_slave_interrupt `(v  1 e 1 0 ]
+{
+"90
+[v i2c_slave_interrupt@value value `uc  1 a 1 3 ]
+"69
+[v i2c_slave_interrupt@isNack isNack `c  1 a 1 2 ]
+"68
+[v i2c_slave_interrupt@isRead isRead `uc  1 a 1 1 ]
+"118
+} 0

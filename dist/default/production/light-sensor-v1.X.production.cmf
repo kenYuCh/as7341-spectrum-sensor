@@ -1,0 +1,1985 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcbYuP2OG.o
+idloc IDLOC 5 8000 8000 4 2 1
+reset_vec CODE 0 0 0 2 2 1
+end_init CODE 0 20 20 2 2 1
+config CONFIG 4 8007 8007 5 2 1
+$dist/default/production/light-sensor-v1.X.production.o
+cinit CODE 0 22 22 24 2 1
+idloc IDLOC 5 8000 8000 4 2 1
+text1 CODE 0 9BA 9BA D 2 1
+text2 CODE 0 461 461 10A 2 1
+text3 CODE 0 A1C A1C 13 2 1
+text4 CODE 0 A57 A57 18 2 1
+text5 CODE 0 ADD ADD 1D 2 1
+text6 CODE 0 A0A A0A 12 2 1
+text7 CODE 0 C90 C90 34 2 1
+text8 CODE 0 E2D E2D 45 2 1
+text9 CODE 0 DE8 DE8 45 2 1
+text10 CODE 0 CF9 CF9 36 2 1
+text11 CODE 0 966 966 9 2 1
+text12 CODE 0 B19 B19 1F 2 1
+text13 CODE 0 9C7 9C7 E 2 1
+text14 CODE 0 A43 A43 14 2 1
+text15 CODE 0 98D 98D A 2 1
+text16 CODE 0 56B 56B C7 2 1
+text17 CODE 0 9F8 9F8 12 2 1
+text18 CODE 0 D2F D2F 37 2 1
+text19 CODE 0 EC2 EC2 55 2 1
+text20 CODE 0 F17 F17 70 2 1
+text21 CODE 0 AFA AFA 1F 2 1
+text22 CODE 0 75E 75E 79 2 1
+text23 CODE 0 F87 F87 79 2 1
+text24 CODE 0 997 997 B 2 1
+text25 CODE 0 BDD BDD 22 2 1
+text26 CODE 0 AA5 AA5 1B 2 1
+text27 CODE 0 944 944 7 2 1
+text28 CODE 0 7D7 7D7 27 2 1
+text29 CODE 0 B9A B9A 21 2 1
+text30 CODE 0 95D 95D 9 2 1
+text31 CODE 0 A8A A8A 1B 2 1
+text32 CODE 0 9D5 9D5 11 2 1
+text33 CODE 0 C2A C2A 32 2 1
+text34 CODE 0 DA3 DA3 45 2 1
+text35 CODE 0 46 46 246 2 1
+text36 CODE 0 938 938 6 2 1
+text37 CODE 0 983 983 A 2 1
+text38 CODE 0 9E6 9E6 12 2 1
+text39 CODE 0 B38 B38 20 2 1
+text40 CODE 0 CC4 CC4 35 2 1
+text41 CODE 0 D66 D66 3D 2 1
+text42 CODE 0 C5C C5C 34 2 1
+text43 CODE 0 A6F A6F 1B 2 1
+text44 CODE 0 B79 B79 21 2 1
+text45 CODE 0 B58 B58 21 2 1
+text46 CODE 0 A2F A2F 14 2 1
+text47 CODE 0 9AE 9AE C 2 1
+text48 CODE 0 9A2 9A2 C 2 1
+text49 CODE 0 954 954 9 2 1
+text50 CODE 0 AC0 AC0 1D 2 1
+text51 CODE 0 979 979 A 2 1
+text52 CODE 0 96F 96F A 2 1
+text53 CODE 0 BFF BFF 2B 2 1
+text54 CODE 0 94B 94B 9 2 1
+text55 CODE 0 BBB BBB 22 2 1
+text56 CODE 0 932 932 6 2 1
+text57 CODE 0 92C 92C 6 2 1
+text58 CODE 0 926 926 6 2 1
+text60 CODE 0 E72 E72 50 2 1
+nvBANK0 BANK0 1 69 69 6 1 1
+idataCOMMON CODE 0 7FE 7FE 1 2 1
+maintext CODE 0 28C 28C 1D5 2 1
+cstackCOMMON COMMON 1 70 70 6 1 1
+cstackBANK0 BANK0 1 20 20 3E 1 1
+cstackBANK1 BANK1 1 A0 A0 21 1 1
+stringtext1 STRCODE 0 1171 1171 A 2 1
+stringtext2 STRCODE 0 118D 118D 8 2 1
+stringtext3 STRCODE 0 632 632 98 2 1
+stringtext4 STRCODE 0 6CA 6CA 94 2 1
+stringtext5 STRCODE 0 1000 1000 2B 2 1
+stringtext6 STRCODE 0 102B 102B 2B 2 1
+stringtext7 STRCODE 0 1056 1056 2B 2 1
+stringtext8 STRCODE 0 1081 1081 22 2 1
+stringtext9 STRCODE 0 10A3 10A3 21 2 1
+intentry CODE 0 4 4 1C 2 1
+bssBANK0 BANK0 1 5E 5E B 1 1
+bssBANK1 BANK1 1 C1 C1 4 1 1
+bssBANK2 BANK2 1 120 120 40 1 1
+idataBANK0 CODE 0 7FF 7FF 1 2 1
+dataBANK0 BANK0 1 6F 6F 1 1 1
+dataCOMMON COMMON 1 79 79 1 1 1
+clrtext CODE 0 93E 93E 6 2 1
+bssCOMMON COMMON 1 76 76 3 1 1
+stringtext10 STRCODE 0 10C4 10C4 21 2 1
+stringtext11 STRCODE 0 10E5 10E5 21 2 1
+stringtext12 STRCODE 0 1106 1106 18 2 1
+stringtext13 STRCODE 0 111E 111E 15 2 1
+stringtext14 STRCODE 0 1133 1133 11 2 1
+stringtext15 STRCODE 0 1144 1144 11 2 1
+stringtext16 STRCODE 0 1155 1155 11 2 1
+stringtext17 STRCODE 0 1166 1166 B 2 1
+stringtext18 STRCODE 0 117B 117B 9 2 1
+stringtext19 STRCODE 0 1184 1184 9 2 1
+stringtext20 STRCODE 0 1195 1195 7 2 1
+stringtext21 STRCODE 0 119C 119C 6 2 1
+stringtext22 STRCODE 0 11A2 11A2 6 2 1
+stringtext23 STRCODE 0 11A8 11A8 6 2 1
+stringtext24 STRCODE 0 11AE 11AE 4 2 1
+stringtext25 STRCODE 0 11B2 11B2 3 2 1
+config CONFIG 4 8007 8007 5 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM C5-EF 1
+RAM 160-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK1 C5-EF 1
+BANK2 160-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 2-3 2
+CONST 800-925 2
+CONST 11B5-1FFF 2
+ENTRY 2-3 2
+ENTRY 800-925 2
+ENTRY 11B5-1FFF 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+SFR32 1000-106F 1
+SFR33 1080-10EF 1
+SFR34 1100-116F 1
+SFR35 1180-11EF 1
+SFR36 1200-126F 1
+SFR37 1280-12EF 1
+SFR38 1300-136F 1
+SFR39 1380-13EF 1
+SFR40 1400-146F 1
+SFR41 1480-14EF 1
+SFR42 1500-156F 1
+SFR43 1580-15EF 1
+SFR44 1600-166F 1
+SFR45 1680-16EF 1
+SFR46 1700-176F 1
+SFR47 1780-17EF 1
+SFR48 1800-186F 1
+SFR49 1880-18EF 1
+SFR50 1900-196F 1
+SFR51 1980-19EF 1
+SFR52 1A00-1A6F 1
+SFR53 1A80-1AEF 1
+SFR54 1B00-1B6F 1
+SFR55 1B80-1BEF 1
+SFR56 1C00-1C6F 1
+SFR57 1C80-1CEF 1
+SFR58 1D00-1D6F 1
+SFR59 1D80-1DEF 1
+SFR60 1E00-1E6F 1
+SFR61 1E80-1EEF 1
+SFR62 1F00-1F6F 1
+SFR63 1F80-1FEF 1
+CODE 2-3 2
+CODE 800-925 2
+CODE 11B5-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+COMMON 7A-7D 1
+EEDATA F000-F0FF 2
+STRCODE 2-3 2
+STRCODE 800-925 2
+STRCODE 11B5-1FFF 2
+STRING 2-3 2
+STRING 800-925 2
+STRING 11B5-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production/light-sensor-v1.X.production.o
+22 cinit CODE >9113:/tmp/xcxPN1uav.s
+22 cinit CODE >9116:/tmp/xcxPN1uav.s
+22 cinit CODE >9180:/tmp/xcxPN1uav.s
+25 cinit CODE >9181:/tmp/xcxPN1uav.s
+26 cinit CODE >9185:/tmp/xcxPN1uav.s
+29 cinit CODE >9186:/tmp/xcxPN1uav.s
+2A cinit CODE >9203:/tmp/xcxPN1uav.s
+2B cinit CODE >9204:/tmp/xcxPN1uav.s
+2C cinit CODE >9205:/tmp/xcxPN1uav.s
+2D cinit CODE >9209:/tmp/xcxPN1uav.s
+2E cinit CODE >9210:/tmp/xcxPN1uav.s
+2F cinit CODE >9211:/tmp/xcxPN1uav.s
+30 cinit CODE >9212:/tmp/xcxPN1uav.s
+31 cinit CODE >9213:/tmp/xcxPN1uav.s
+32 cinit CODE >9214:/tmp/xcxPN1uav.s
+35 cinit CODE >9218:/tmp/xcxPN1uav.s
+36 cinit CODE >9219:/tmp/xcxPN1uav.s
+37 cinit CODE >9220:/tmp/xcxPN1uav.s
+38 cinit CODE >9221:/tmp/xcxPN1uav.s
+39 cinit CODE >9222:/tmp/xcxPN1uav.s
+3A cinit CODE >9226:/tmp/xcxPN1uav.s
+3B cinit CODE >9227:/tmp/xcxPN1uav.s
+3C cinit CODE >9228:/tmp/xcxPN1uav.s
+3D cinit CODE >9229:/tmp/xcxPN1uav.s
+3E cinit CODE >9230:/tmp/xcxPN1uav.s
+3F cinit CODE >9231:/tmp/xcxPN1uav.s
+42 cinit CODE >9237:/tmp/xcxPN1uav.s
+42 cinit CODE >9239:/tmp/xcxPN1uav.s
+43 cinit CODE >9240:/tmp/xcxPN1uav.s
+44 cinit CODE >9241:/tmp/xcxPN1uav.s
+4 intentry CODE >42:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+6 intentry CODE >44:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+B intentry CODE >45:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+C intentry CODE >46:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+15 intentry CODE >50:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+1A intentry CODE >51:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+1B intentry CODE >52:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+1E intentry CODE >54:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+E72 text60 CODE >65:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E72 text60 CODE >68:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E77 text60 CODE >69:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E7B text60 CODE >72:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E80 text60 CODE >73:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E82 text60 CODE >78:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E87 text60 CODE >80:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E8E text60 CODE >82:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E92 text60 CODE >84:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E94 text60 CODE >84:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E98 text60 CODE >85:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E9A text60 CODE >90:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E9C text60 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E9D text60 CODE >94:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E9D text60 CODE >95:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+E9F text60 CODE >96:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EA0 text60 CODE >99:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EA3 text60 CODE >100:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EA5 text60 CODE >101:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EA6 text60 CODE >105:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EA8 text60 CODE >105:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EAC text60 CODE >106:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EB3 text60 CODE >108:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EB4 text60 CODE >109:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EB5 text60 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EB7 text60 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EBA text60 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EBD text60 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EC0 text60 CODE >114:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EC0 text60 CODE >117:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+EC1 text60 CODE >118:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+926 text58 CODE >174:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+926 text58 CODE >175:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+92B text58 CODE >176:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+92C text57 CODE >166:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+92C text57 CODE >167:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+931 text57 CODE >168:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+932 text56 CODE >170:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+932 text56 CODE >171:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+937 text56 CODE >172:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BBB text55 CODE >66:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BBB text55 CODE >71:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BBE text55 CODE >74:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BC0 text55 CODE >77:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BC2 text55 CODE >80:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BC4 text55 CODE >83:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BC5 text55 CODE >86:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BCC text55 CODE >87:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BD3 text55 CODE >88:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BDA text55 CODE >90:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+BDC text55 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+94B text54 CODE >57:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+94B text54 CODE >60:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+94E text54 CODE >62:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+94F text54 CODE >64:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+950 text54 CODE >66:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+952 text54 CODE >68:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+953 text54 CODE >69:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+BFF text53 CODE >51:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+BFF text53 CODE >56:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C01 text53 CODE >57:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C02 text53 CODE >62:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C03 text53 CODE >64:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C05 text53 CODE >69:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C07 text53 CODE >70:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C08 text53 CODE >75:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C09 text53 CODE >76:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C0A text53 CODE >81:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C0B text53 CODE >82:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C0C text53 CODE >87:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C0E text53 CODE >88:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C10 text53 CODE >93:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C12 text53 CODE >94:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C14 text53 CODE >96:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C16 text53 CODE >97:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C19 text53 CODE >98:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C1C text53 CODE >99:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C1F text53 CODE >106:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C22 text53 CODE >107:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C24 text53 CODE >108:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C27 text53 CODE >109:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+C29 text53 CODE >110:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/pin_manager.c
+96F text52 CODE >71:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+96F text52 CODE >74:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+971 text52 CODE >76:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+972 text52 CODE >78:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+973 text52 CODE >80:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+974 text52 CODE >82:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+975 text52 CODE >84:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+976 text52 CODE >86:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+977 text52 CODE >88:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+978 text52 CODE >89:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+979 text51 CODE >50:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+979 text51 CODE >52:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+97C text51 CODE >53:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+97F text51 CODE >54:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+982 text51 CODE >55:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/mcc_generated_files/mcc.c
+AC0 text50 CODE >76:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+AC1 text50 CODE >78:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+AC3 text50 CODE >80:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+AC8 text50 CODE >81:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+AC9 text50 CODE >83:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+ACC text50 CODE >85:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+AD4 text50 CODE >86:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+AD5 text50 CODE >87:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+ADA text50 CODE >88:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+ADB text50 CODE >90:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+ADC text50 CODE >91:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+954 text49 CODE >33:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+954 text49 CODE >35:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+956 text49 CODE >36:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+95A text49 CODE >38:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+95C text49 CODE >39:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9A2 text48 CODE >29:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9A2 text48 CODE >30:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9AD text48 CODE >31:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9AE text47 CODE >51:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9AE text47 CODE >53:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9B1 text47 CODE >55:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9B3 text47 CODE >56:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9B7 text47 CODE >58:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9B9 text47 CODE >59:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A2F text46 CODE >61:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A30 text46 CODE >64:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A33 text46 CODE >66:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A38 text46 CODE >67:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A39 text46 CODE >69:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A3E text46 CODE >70:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A3F text46 CODE >71:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A41 text46 CODE >73:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+A42 text46 CODE >74:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+B58 text45 CODE >622:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B5A text45 CODE >624:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B5D text45 CODE >625:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B61 text45 CODE >626:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B66 text45 CODE >627:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B69 text45 CODE >628:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B6D text45 CODE >629:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B73 text45 CODE >630:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B76 text45 CODE >631:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B78 text45 CODE >632:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B79 text44 CODE >608:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B7B text44 CODE >610:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B7E text44 CODE >611:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B82 text44 CODE >612:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B87 text44 CODE >613:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B8D text44 CODE >614:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B90 text44 CODE >615:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B96 text44 CODE >616:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B98 text44 CODE >618:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B99 text44 CODE >621:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A6F text43 CODE >312:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A71 text43 CODE >313:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A77 text43 CODE >314:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A7C text43 CODE >315:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A7F text43 CODE >316:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A80 text43 CODE >317:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A83 text43 CODE >319:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A89 text43 CODE >320:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C5C text42 CODE >366:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C5E text42 CODE >367:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C5E text42 CODE >368:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C5F text42 CODE >369:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C63 text42 CODE >370:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C69 text42 CODE >371:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C6F text42 CODE >372:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C74 text42 CODE >373:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C77 text42 CODE >374:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C78 text42 CODE >375:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C7B text42 CODE >376:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C7E text42 CODE >377:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C84 text42 CODE >379:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C8B text42 CODE >380:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C8F text42 CODE >381:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D66 text41 CODE >5:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D66 text41 CODE >13:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D69 text41 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D6F text41 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D71 text41 CODE >16:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D72 text41 CODE >17:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D77 text41 CODE >18:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D7B text41 CODE >16:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D7F text41 CODE >21:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D84 text41 CODE >22:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D86 text41 CODE >22:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D8A text41 CODE >22:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D8E text41 CODE >23:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D92 text41 CODE >24:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D93 text41 CODE >26:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D98 text41 CODE >27:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+D9E text41 CODE >29:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+DA2 text41 CODE >30:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwdiv.c
+CC4 text40 CODE >5:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CC4 text40 CODE >12:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CCB text40 CODE >13:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CCD text40 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CCE text40 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CD3 text40 CODE >16:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CD7 text40 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CDB text40 CODE >19:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CDD text40 CODE >19:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CE1 text40 CODE >19:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CE5 text40 CODE >20:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CE9 text40 CODE >21:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CEE text40 CODE >22:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CF4 text40 CODE >24:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+CF8 text40 CODE >25:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/lwmod.c
+B38 text39 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B38 text39 CODE >43:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B3A text39 CODE >45:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B3F text39 CODE >46:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B43 text39 CODE >47:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B48 text39 CODE >48:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B4D text39 CODE >49:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B53 text39 CODE >52:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+B57 text39 CODE >53:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul16.c
+9E6 text38 CODE >8:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isdigit.c
+9E7 text38 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isdigit.c
+9EA text38 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isdigit.c
+9F0 text38 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isdigit.c
+9F7 text38 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isdigit.c
+983 text37 CODE >132:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+984 text37 CODE >134:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+984 text37 CODE >136:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+989 text37 CODE >138:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+98C text37 CODE >139:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+938 text36 CODE >146:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+939 text36 CODE >148:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+93D text36 CODE >149:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/eusart1.c
+46 text35 CODE >477:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+46 text35 CODE >550:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+49 text35 CODE >553:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+4A text35 CODE >555:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+50 text35 CODE >558:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+54 text35 CODE >559:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+55 text35 CODE >563:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+57 text35 CODE >565:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+59 text35 CODE >596:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+59 text35 CODE >597:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+5A text35 CODE >598:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+5E text35 CODE >568:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+64 text35 CODE >568:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+67 text35 CODE >614:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+73 text35 CODE >615:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+76 text35 CODE >617:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+87 text35 CODE >618:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+8F text35 CODE >618:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+9A text35 CODE >619:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+A7 text35 CODE >738:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+A7 text35 CODE >740:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+A8 text35 CODE >744:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+A8 text35 CODE >747:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+A9 text35 CODE >749:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+AA text35 CODE >760:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+B5 text35 CODE >766:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+BB text35 CODE >767:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+BF text35 CODE >771:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+C1 text35 CODE >772:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+C2 text35 CODE >773:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+C6 text35 CODE >772:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+D1 text35 CODE >783:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+D3 text35 CODE >783:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+D7 text35 CODE >783:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+DB text35 CODE >784:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+E0 text35 CODE >786:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+E3 text35 CODE >791:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+E7 text35 CODE >790:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+ED text35 CODE >790:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+F5 text35 CODE >794:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+102 text35 CODE >793:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+107 text35 CODE >793:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+10F text35 CODE >825:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+118 text35 CODE >831:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+11C text35 CODE >832:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+120 text35 CODE >833:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+121 text35 CODE >844:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+125 text35 CODE >845:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+126 text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+12C text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+135 text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+138 text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+13B text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+13E text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+141 text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+144 text35 CODE >661:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+147 text35 CODE >1312:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+152 text35 CODE >1320:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+153 text35 CODE >1328:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+153 text35 CODE >1331:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+15C text35 CODE >1332:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+16E text35 CODE >1332:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+172 text35 CODE >1332:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+177 text35 CODE >1331:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+182 text35 CODE >1340:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+182 text35 CODE >1342:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+18B text35 CODE >1343:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+19D text35 CODE >1343:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1A1 text35 CODE >1343:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1A6 text35 CODE >1342:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1B1 text35 CODE >1320:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1B4 text35 CODE >1320:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1B7 text35 CODE >1320:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1BA text35 CODE >1407:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1BD text35 CODE >1407:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1C1 text35 CODE >1407:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1C5 text35 CODE >1408:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1CE text35 CODE >1410:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1D1 text35 CODE >1413:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1D5 text35 CODE >1441:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1DB text35 CODE >1443:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1DF text35 CODE >1444:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1EB text35 CODE >1454:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1F1 text35 CODE >1456:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+1F5 text35 CODE >1457:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+200 text35 CODE >1498:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+202 text35 CODE >1500:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+203 text35 CODE >1515:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+22A text35 CODE >1517:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+22B text35 CODE >1526:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+246 text35 CODE >1528:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+25B text35 CODE >1528:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+260 text35 CODE >1536:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+261 text35 CODE >1502:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+264 text35 CODE >1502:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+267 text35 CODE >1502:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+26A text35 CODE >1550:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+26E text35 CODE >1500:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+278 text35 CODE >553:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+27E text35 CODE >553:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+28B text35 CODE >1567:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/doprnt.c
+DA3 text34 CODE >48:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DA5 text34 CODE >49:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DAB text34 CODE >50:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DC0 text34 CODE >51:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DC8 text34 CODE >52:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DE1 text34 CODE >53:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DE7 text34 CODE >54:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C2A text33 CODE >33:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C2C text33 CODE >34:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C32 text33 CODE >35:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C37 text33 CODE >36:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C3E text33 CODE >37:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C3F text33 CODE >38:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C43 text33 CODE >39:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C46 text33 CODE >40:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C5B text33 CODE >42:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+9D5 text32 CODE >342:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+9D7 text32 CODE >343:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+9D9 text32 CODE >343:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+9DF text32 CODE >344:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+9E5 text32 CODE >345:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A8A text31 CODE >331:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A8A text31 CODE >333:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A8D text31 CODE >334:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A8F text31 CODE >335:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A95 text31 CODE >336:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+A9C text31 CODE >337:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AA4 text31 CODE >340:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+95D text30 CODE >322:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+95F text30 CODE >323:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+965 text30 CODE >324:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B9A text29 CODE >13:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B9A text29 CODE >14:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B9E text29 CODE >16:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BA2 text29 CODE >17:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BAA text29 CODE >18:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BAE text29 CODE >26:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BB2 text29 CODE >27:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BBA text29 CODE >31:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7D7 text28 CODE >88:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7D9 text28 CODE >89:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7D9 text28 CODE >90:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7DD text28 CODE >91:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7E3 text28 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7E4 text28 CODE >94:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7E7 text28 CODE >95:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7E8 text28 CODE >97:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7EC text28 CODE >98:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7ED text28 CODE >100:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7F1 text28 CODE >101:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7F2 text28 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7F4 text28 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7F7 text28 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7FA text28 CODE >92:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7FD text28 CODE >107:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+944 text27 CODE >289:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+944 text27 CODE >290:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+94A text27 CODE >291:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AA5 text26 CODE >67:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AA7 text26 CODE >68:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AAD text26 CODE >69:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AB2 text26 CODE >70:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AB5 text26 CODE >71:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AB6 text26 CODE >72:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AB9 text26 CODE >74:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+ABF text26 CODE >76:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BDD text25 CODE >58:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BDF text25 CODE >59:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BE5 text25 CODE >60:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+BFE text25 CODE >61:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+997 text24 CODE >169:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+999 text24 CODE >170:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+99D text24 CODE >171:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+9A1 text24 CODE >172:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F87 text23 CODE >111:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F87 text23 CODE >112:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F8A text23 CODE >113:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F8E text23 CODE >114:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F94 text23 CODE >115:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F9A text23 CODE >116:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F9F text23 CODE >117:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FA4 text23 CODE >118:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FA9 text23 CODE >120:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FAF text23 CODE >121:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FB4 text23 CODE >122:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FB9 text23 CODE >123:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FBF text23 CODE >124:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FC4 text23 CODE >126:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FC9 text23 CODE >127:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FCE text23 CODE >128:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FD4 text23 CODE >129:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FDA text23 CODE >130:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FDF text23 CODE >132:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FE5 text23 CODE >133:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FEB text23 CODE >134:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FF1 text23 CODE >135:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FF6 text23 CODE >136:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FFC text23 CODE >138:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+FFF text23 CODE >139:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+75E text22 CODE >141:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+75E text22 CODE >142:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+761 text22 CODE >143:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+765 text22 CODE >144:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+76A text22 CODE >145:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+76F text22 CODE >146:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+774 text22 CODE >147:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+77A text22 CODE >148:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+780 text22 CODE >150:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+785 text22 CODE >151:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+78B text22 CODE >152:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+791 text22 CODE >153:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+797 text22 CODE >154:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+79D text22 CODE >156:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7A3 text22 CODE >157:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7A8 text22 CODE >158:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7AD text22 CODE >159:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7B2 text22 CODE >160:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7B8 text22 CODE >162:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7BD text22 CODE >163:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7C2 text22 CODE >164:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7C8 text22 CODE >165:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7CD text22 CODE >166:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7D3 text22 CODE >167:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+7D6 text22 CODE >168:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AFA text21 CODE >297:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+AFC text21 CODE >299:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B02 text21 CODE >300:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B07 text21 CODE >301:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B0A text21 CODE >303:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B0F text21 CODE >304:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B12 text21 CODE >306:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+B18 text21 CODE >308:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F17 text20 CODE >198:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F19 text20 CODE >199:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F19 text20 CODE >200:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F1F text20 CODE >201:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F22 text20 CODE >202:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F28 text20 CODE >204:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F2C text20 CODE >205:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F2F text20 CODE >207:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F35 text20 CODE >208:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F3C text20 CODE >209:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F3F text20 CODE >210:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F45 text20 CODE >211:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F4C text20 CODE >212:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F4F text20 CODE >214:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F53 text20 CODE >215:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F59 text20 CODE >216:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F60 text20 CODE >217:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F64 text20 CODE >218:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F68 text20 CODE >219:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F6E text20 CODE >220:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F75 text20 CODE >221:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F79 text20 CODE >223:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F7D text20 CODE >224:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+F86 text20 CODE >228:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+EC2 text19 CODE >26:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+EC2 text19 CODE >28:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+EC5 text19 CODE >28:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+EC9 text19 CODE >28:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+ECD text19 CODE >28:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+ED1 text19 CODE >28:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+ED5 text19 CODE >29:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+EE9 text19 CODE >30:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+EEA text19 CODE >32:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+F0E text19 CODE >34:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+F16 text19 CODE >35:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+D2F text18 CODE >386:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D31 text18 CODE >387:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D31 text18 CODE >388:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D38 text18 CODE >389:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D3A text18 CODE >390:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D3C text18 CODE >390:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D40 text18 CODE >391:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D42 text18 CODE >393:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D46 text18 CODE >394:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D4C text18 CODE >395:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D4F text18 CODE >396:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D50 text18 CODE >397:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D52 text18 CODE >399:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D58 text18 CODE >400:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D61 text18 CODE >401:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D65 text18 CODE >402:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+9F8 text17 CODE >8:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isprint.c
+9F9 text17 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isprint.c
+9FC text17 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isprint.c
+A02 text17 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isprint.c
+A09 text17 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isprint.c
+56B text16 CODE >7:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+56D text16 CODE >8:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+56F text16 CODE >11:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+572 text16 CODE >12:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+57D text16 CODE >13:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+580 text16 CODE >14:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+588 text16 CODE >14:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+58C text16 CODE >14:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+590 text16 CODE >15:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5A8 text16 CODE >16:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5A9 text16 CODE >17:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5B0 text16 CODE >13:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5B8 text16 CODE >13:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5BA text16 CODE >13:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5BE text16 CODE >20:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5C5 text16 CODE >21:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5C8 text16 CODE >22:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5D0 text16 CODE >22:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5D4 text16 CODE >22:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+5D8 text16 CODE >23:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+60D text16 CODE >21:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+615 text16 CODE >21:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+617 text16 CODE >21:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+61B text16 CODE >26:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+622 text16 CODE >11:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+629 text16 CODE >11:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+62D text16 CODE >11:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+631 text16 CODE >28:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/my_helpers.c
+98D text15 CODE >121:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+98D text15 CODE >122:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+996 text15 CODE >123:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+A43 text14 CODE >18:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+A43 text14 CODE >19:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+A44 text14 CODE >20:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+A4D text14 CODE >21:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+A4E text14 CODE >22:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+A56 text14 CODE >23:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+9C7 text13 CODE >9:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9C7 text13 CODE >10:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9C9 text13 CODE >11:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9CA text13 CODE >12:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9CC text13 CODE >13:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9CD text13 CODE >15:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9D0 text13 CODE >16:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9D1 text13 CODE >17:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9D2 text13 CODE >18:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+9D4 text13 CODE >20:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_master.c
+B19 text12 CODE >14:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B19 text12 CODE >15:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B1B text12 CODE >16:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B1D text12 CODE >17:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B1F text12 CODE >20:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B21 text12 CODE >21:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B23 text12 CODE >23:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B25 text12 CODE >24:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B26 text12 CODE >27:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B27 text12 CODE >28:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B2D text12 CODE >27:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B33 text12 CODE >27:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+B37 text12 CODE >30:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+966 text11 CODE >32:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+967 text11 CODE >33:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+96E text11 CODE >34:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/i2c_slave.c
+CF9 text10 CODE >246:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+CFB text10 CODE >248:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+CFB text10 CODE >249:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D07 text10 CODE >250:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D13 text10 CODE >251:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D17 text10 CODE >252:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D20 text10 CODE >253:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D29 text10 CODE >254:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+D2E text10 CODE >255:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DE8 text9 CODE >259:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DE8 text9 CODE >261:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DF1 text9 CODE >262:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+DFA text9 CODE >263:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E03 text9 CODE >264:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E0C text9 CODE >265:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E15 text9 CODE >266:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E1E text9 CODE >267:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E2C text9 CODE >268:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E2D text8 CODE >272:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E2D text8 CODE >274:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E36 text8 CODE >275:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E3F text8 CODE >276:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E48 text8 CODE >277:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E51 text8 CODE >278:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E5A text8 CODE >279:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E63 text8 CODE >280:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+E71 text8 CODE >281:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/as7341_model.c
+C90 text7 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+C90 text7 CODE >119:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+C99 text7 CODE >121:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+C9D text7 CODE >122:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+CA5 text7 CODE >123:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+CAC text7 CODE >124:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+CB3 text7 CODE >125:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+CB7 text7 CODE >125:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+CBB text7 CODE >128:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+CC3 text7 CODE >129:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/Umul32.c
+A0A text6 CODE >8:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isupper.c
+A0B text6 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isupper.c
+A0E text6 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isupper.c
+A14 text6 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isupper.c
+A1B text6 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isupper.c
+ADD text5 CODE >8:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isalpha.c
+ADF text5 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isalpha.c
+AE3 text5 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isalpha.c
+AE9 text5 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isalpha.c
+AF9 text5 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isalpha.c
+A57 text4 CODE >8:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isspace.c
+A58 text4 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isspace.c
+A62 text4 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isspace.c
+A68 text4 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isspace.c
+A6E text4 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/isspace.c
+A1C text3 CODE >5:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+A1D text3 CODE >10:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+A1F text3 CODE >10:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+A25 text3 CODE >10:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+A29 text3 CODE >11:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+A2D text3 CODE >12:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+A2E text3 CODE >13:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/toupper.c
+461 text2 CODE >5:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+463 text2 CODE >10:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+463 text2 CODE >11:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+46D text2 CODE >12:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+476 text2 CODE >13:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+47F text2 CODE >14:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+480 text2 CODE >15:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+486 text2 CODE >16:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+488 text2 CODE >17:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+491 text2 CODE >18:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+499 text2 CODE >20:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+49F text2 CODE >21:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4A8 text2 CODE >22:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4C1 text2 CODE >23:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4C5 text2 CODE >24:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4CE text2 CODE >25:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4D5 text2 CODE >26:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4D9 text2 CODE >28:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4DF text2 CODE >29:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4E3 text2 CODE >31:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4EB text2 CODE >32:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4F4 text2 CODE >33:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+4FD text2 CODE >34:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+500 text2 CODE >37:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+503 text2 CODE >37:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+507 text2 CODE >37:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+50C text2 CODE >39:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+537 text2 CODE >40:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+540 text2 CODE >41:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+541 text2 CODE >42:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+547 text2 CODE >43:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+54D text2 CODE >44:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+552 text2 CODE >45:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+55B text2 CODE >45:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+55D text2 CODE >45:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+55F text2 CODE >45:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+562 text2 CODE >46:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+56A text2 CODE >47:/Applications/microchip/xc8/v2.40/pic/sources/c90/common/strtol.c
+9BA text1 CODE >5:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+9BA text1 CODE >8:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+9BD text1 CODE >11:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+9BF text1 CODE >14:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+9C0 text1 CODE >17:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+9C2 text1 CODE >20:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+9C3 text1 CODE >23:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+9C6 text1 CODE >24:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/tmr0.c
+28C maintext CODE >59:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+28C maintext CODE >62:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+28F maintext CODE >63:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+292 maintext CODE >64:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+295 maintext CODE >65:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+29D maintext CODE >67:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+29F maintext CODE >68:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2A1 maintext CODE >70:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2A2 maintext CODE >71:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2A3 maintext CODE >74:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2A6 maintext CODE >75:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2A9 maintext CODE >77:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2B1 maintext CODE >78:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2BD maintext CODE >81:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2C0 maintext CODE >84:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2C4 maintext CODE >85:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2CB maintext CODE >87:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+2DE maintext CODE >99:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+30F maintext CODE >100:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+318 maintext CODE >101:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+31C maintext CODE >102:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+32E maintext CODE >114:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+365 maintext CODE >115:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+36E maintext CODE >116:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+372 maintext CODE >117:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+384 maintext CODE >129:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3BB maintext CODE >131:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3BC maintext CODE >132:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3C3 maintext CODE >133:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3CA maintext CODE >134:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3D1 maintext CODE >135:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3D8 maintext CODE >136:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3DF maintext CODE >137:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3E6 maintext CODE >138:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3ED maintext CODE >139:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3F4 maintext CODE >140:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+3FB maintext CODE >141:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+402 maintext CODE >142:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+409 maintext CODE >143:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+410 maintext CODE >144:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+416 maintext CODE >146:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+418 maintext CODE >148:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+428 maintext CODE >149:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+438 maintext CODE >150:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+439 maintext CODE >151:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+447 maintext CODE >152:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+44E maintext CODE >146:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+456 maintext CODE >146:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+45A maintext CODE >154:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+45B maintext CODE >155:/Users/yuhsienchang/Desktop/Sync/programming-ammonia/light-sensor-v1.X/main.c
+93E clrtext CODE >9192:/tmp/xcxPN1uav.s
+93E clrtext CODE >9193:/tmp/xcxPN1uav.s
+93F clrtext CODE >9194:/tmp/xcxPN1uav.s
+93F clrtext CODE >9195:/tmp/xcxPN1uav.s
+940 clrtext CODE >9196:/tmp/xcxPN1uav.s
+941 clrtext CODE >9197:/tmp/xcxPN1uav.s
+942 clrtext CODE >9198:/tmp/xcxPN1uav.s
+943 clrtext CODE >9199:/tmp/xcxPN1uav.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_set_F5F8ClearNIR EBC 0 CODE 0 text22 dist/default/production/light-sensor-v1.X.production.o
+___lwmod@counter 2B 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+_measurement_mode 67 0 BANK0 1 bssBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_write_byte 1344 0 CODE 0 text24 dist/default/production/light-sensor-v1.X.production.o
+_as7341_enableLED 18B8 0 CODE 0 text42 dist/default/production/light-sensor-v1.X.production.o
+__Hspace_0 11B5 0 ABS 0 - -
+__Hspace_1 160 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10013 0 ABS 0 - -
+_set_AGAIN 13AA 0 CODE 0 text32 dist/default/production/light-sensor-v1.X.production.o
+_set_ASTEP 1514 0 CODE 0 text31 dist/default/production/light-sensor-v1.X.production.o
+_set_ATIME 12BA 0 CODE 0 text30 dist/default/production/light-sensor-v1.X.production.o
+_readSpectralDataOne 1BD0 0 CODE 0 text9 dist/default/production/light-sensor-v1.X.production.o
+_readSpectralDataTwo 1C5A 0 CODE 0 text8 dist/default/production/light-sensor-v1.X.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+_SSP1STATbits 18F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+EUSART1_SetErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_as7341_begin 1734 0 CODE 0 text29 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_Initialize 1776 0 CODE 0 text55 dist/default/production/light-sensor-v1.X.production.o
+_as7341_i2c_write 16F2 0 CODE 0 text44 dist/default/production/light-sensor-v1.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+isalpha@c 21 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_PMD_Initialize 12DE 0 CODE 0 text52 dist/default/production/light-sensor-v1.X.production.o
+__end_of_set_GPIO_mode 1632 0 CODE 0 text21 dist/default/production/light-sensor-v1.X.production.o
+__end_of_I2C_Start 12BA 0 CODE 0 text49 dist/default/production/light-sensor-v1.X.production.o
+__end_of_I2C_Write 1486 0 CODE 0 text46 dist/default/production/light-sensor-v1.X.production.o
+main@i A8 0 BANK1 1 cstackBANK1 dist/default/production/light-sensor-v1.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+_LATA 18 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_LATC 1A 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD0 796 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD1 797 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD2 798 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD3 799 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD4 79A 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD5 79B 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD6 79C 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PMD7 79D 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_WPUA 1F39 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_WPUC 1F4F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+___sp 0 0 STACK 2 stack /tmp/xcbYuP2OG.o
+_main 518 0 CODE 0 maintext dist/default/production/light-sensor-v1.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_as7341_init 1854 0 CODE 0 text33 dist/default/production/light-sensor-v1.X.production.o
+control_LED@current 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+start 40 0 CODE 0 init /tmp/xcbYuP2OG.o
+_isalpha$1837 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_i2c_slave_set_register 12DE 0 CODE 0 text11 dist/default/production/light-sensor-v1.X.production.o
+__Hstringtext10 0 0 ABS 0 stringtext10 -
+__Hstringtext11 0 0 ABS 0 stringtext11 -
+__Hstringtext12 0 0 ABS 0 stringtext12 -
+__Hstringtext13 0 0 ABS 0 stringtext13 -
+__Hstringtext14 0 0 ABS 0 stringtext14 -
+__Hstringtext15 0 0 ABS 0 stringtext15 -
+__Hstringtext16 0 0 ABS 0 stringtext16 -
+__Hstringtext17 0 0 ABS 0 stringtext17 -
+__Hstringtext18 0 0 ABS 0 stringtext18 -
+__Hstringtext19 0 0 ABS 0 stringtext19 -
+__Hstringtext20 0 0 ABS 0 stringtext20 -
+__Hstringtext21 0 0 ABS 0 stringtext21 -
+__Hstringtext22 0 0 ABS 0 stringtext22 -
+__Hstringtext23 0 0 ABS 0 stringtext23 -
+__Hstringtext24 0 0 ABS 0 stringtext24 -
+__Hstringtext25 0 0 ABS 0 stringtext25 -
+__Hstringtext26 0 0 ABS 0 stringtext26 -
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+get_channel_data@data 26 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_toupper 1438 0 CODE 0 text3 dist/default/production/light-sensor-v1.X.production.o
+?___lmul 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+?___wmul 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_as7341_power_enable$1184 51 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_as7341_power_enable$1190 53 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+isupper@c 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+_set_F1F4ClearNIR 1F0E 0 CODE 0 text23 dist/default/production/light-sensor-v1.X.production.o
+as7341_write_byte@reg 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_I2C_Start 12A8 0 CODE 0 text49 dist/default/production/light-sensor-v1.X.production.o
+main@prev_ticks1 C1 0 BANK1 1 bssBANK1 dist/default/production/light-sensor-v1.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_I2C_Write 145E 0 CODE 0 text46 dist/default/production/light-sensor-v1.X.production.o
+printf@c 4C 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+printf@f 2C 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_as7341_power_enable 1B46 0 CODE 0 text34 dist/default/production/light-sensor-v1.X.production.o
+as7341_power_enable@state 4F 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+dump_buffer@size 4D 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_enableLED@data1 25 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_enableLED@state 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcbYuP2OG.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcbYuP2OG.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcbYuP2OG.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcbYuP2OG.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcbYuP2OG.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcbYuP2OG.o
+as7341_config@data 25 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_config@mode 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+i2c_slave_set_register@value 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+set_bank@regVal 23 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_RC1STAbits 11D 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__end_of_PMD_Initialize 12F2 0 CODE 0 text52 dist/default/production/light-sensor-v1.X.production.o
+dump_buffer@i 57 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+dump_buffer@j 59 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+dump_buffer@p 56 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+EUSART1_Write@txData 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+as7341_init@mode 5A 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+control_LED@LED 26 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__pidataCOMMON FFC 0 CODE 0 idataCOMMON dist/default/production/light-sensor-v1.X.production.o
+__end_of_set_F5F8ClearNIR FAE 0 CODE 0 text22 dist/default/production/light-sensor-v1.X.production.o
+_get_channel_data 19F2 0 CODE 0 text10 dist/default/production/light-sensor-v1.X.production.o
+___wmul@multiplicand 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_enableLED 1920 0 CODE 0 text42 dist/default/production/light-sensor-v1.X.production.o
+printf@flag 49 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+printf@prec 41 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_begin 1776 0 CODE 0 text29 dist/default/production/light-sensor-v1.X.production.o
+as7341_init@as7341_id 5B 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_i2c_slave_interrupt 1D84 0 CODE 0 text60 dist/default/production/light-sensor-v1.X.production.o
+i2c_slave_interrupt@isNack 72 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+i2c_slave_interrupt@isRead 71 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_ACKDT2 CDD 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_ACKEN2 CDC 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_ANSELA 1F38 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_ANSELC 1F4E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_as7341_write_byte 132E 0 CODE 0 text24 dist/default/production/light-sensor-v1.X.production.o
+set_ASTEP@value 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_as7341_start_measurement 1E2E 0 CODE 0 text20 dist/default/production/light-sensor-v1.X.production.o
+printf@width 4A 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
+__end_of_as7341_i2c_write 1734 0 CODE 0 text44 dist/default/production/light-sensor-v1.X.production.o
+__end_of_INTERRUPT_InterruptManager 40 0 CODE 0 intentry dist/default/production/light-sensor-v1.X.production.o
+__end_of_readSpectralDataOne 1C5A 0 CODE 0 text9 dist/default/production/light-sensor-v1.X.production.o
+__end_of_readSpectralDataTwo 1CE4 0 CODE 0 text8 dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_config FFC 0 CODE 0 text28 dist/default/production/light-sensor-v1.X.production.o
+_I2C_Read 1580 0 CODE 0 text50 dist/default/production/light-sensor-v1.X.production.o
+_I2C_Stop 135C 0 CODE 0 text47 dist/default/production/light-sensor-v1.X.production.o
+_I2C_Wait 1344 0 CODE 0 text48 dist/default/production/light-sensor-v1.X.production.o
+__end_of___lmul 1988 0 CODE 0 text7 dist/default/production/light-sensor-v1.X.production.o
+__end_of___wmul 16B0 0 CODE 0 text39 dist/default/production/light-sensor-v1.X.production.o
+main@now A4 0 BANK1 1 cstackBANK1 dist/default/production/light-sensor-v1.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+?_printf 2C 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_I2C_Read 15BA 0 CODE 0 text50 dist/default/production/light-sensor-v1.X.production.o
+__end_of_I2C_Stop 1374 0 CODE 0 text47 dist/default/production/light-sensor-v1.X.production.o
+__end_of_I2C_Wait 135C 0 CODE 0 text48 dist/default/production/light-sensor-v1.X.production.o
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+as7341_enableLED@data 26 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+i2c_slave_init@i 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+___lwmod@divisor 27 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+EUSART1_SetFramingErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__end_of___lwdiv 1B46 0 CODE 0 text41 dist/default/production/light-sensor-v1.X.production.o
+__end_of___lwmod 19F2 0 CODE 0 text40 dist/default/production/light-sensor-v1.X.production.o
+__end_of_enable_smux 1580 0 CODE 0 text26 dist/default/production/light-sensor-v1.X.production.o
+_control_LED 1A5E 0 CODE 0 text18 dist/default/production/light-sensor-v1.X.production.o
+_INLVLA 1F3C 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_INLVLC 1F52 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+?_strtol 2C 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_i2c_write@value 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+___stackhi 0 0 ABS 0 - /tmp/xcbYuP2OG.o
+___stacklo 0 0 ABS 0 - /tmp/xcbYuP2OG.o
+__end_of_set_F1F4ClearNIR 2000 0 CODE 0 text23 dist/default/production/light-sensor-v1.X.production.o
+set_GPIO_mode@data 23 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+set_GPIO_mode@mode 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_dpowers 22E2 0 STRCODE 0 stringtext1 dist/default/production/light-sensor-v1.X.production.o
+set_ATIME@value 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+get_channel_data@channel 2A 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+I2C_Read@a 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+___lwdiv@quotient 25 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
+__end_of_dump_buffer C64 0 CODE 0 text16 dist/default/production/light-sensor-v1.X.production.o
+___lwmod@dividend 29 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_PIN_MANAGER_Initialize 17FE 0 CODE 0 text53 dist/default/production/light-sensor-v1.X.production.o
+__Lstringtext10 0 0 ABS 0 stringtext10 -
+__Lstringtext11 0 0 ABS 0 stringtext11 -
+__Lstringtext12 0 0 ABS 0 stringtext12 -
+__Lstringtext13 0 0 ABS 0 stringtext13 -
+__Lstringtext14 0 0 ABS 0 stringtext14 -
+__Lstringtext15 0 0 ABS 0 stringtext15 -
+__Lstringtext16 0 0 ABS 0 stringtext16 -
+__Lstringtext17 0 0 ABS 0 stringtext17 -
+__Lstringtext18 0 0 ABS 0 stringtext18 -
+__Lstringtext19 0 0 ABS 0 stringtext19 -
+__Lstringtext20 0 0 ABS 0 stringtext20 -
+__Lstringtext21 0 0 ABS 0 stringtext21 -
+__Lstringtext22 0 0 ABS 0 stringtext22 -
+__Lstringtext23 0 0 ABS 0 stringtext23 -
+__Lstringtext24 0 0 ABS 0 stringtext24 -
+__Lstringtext25 0 0 ABS 0 stringtext25 -
+__Lstringtext26 0 0 ABS 0 stringtext26 -
+__end_of_as7341_power_enable 1BD0 0 CODE 0 text34 dist/default/production/light-sensor-v1.X.production.o
+start_initialization 44 0 CODE 0 cinit dist/default/production/light-sensor-v1.X.production.o
+_SSP2CON2bits 19B 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_eusart1RxLastError 68 0 BANK0 1 bssBANK0 dist/default/production/light-sensor-v1.X.production.o
+_ODCONA 1F3A 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_ODCONC 1F50 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_i2c_slave_init 1632 0 CODE 0 text12 dist/default/production/light-sensor-v1.X.production.o
+__end_of_hexpowers 232A 0 STRCODE 0 stringtext2 dist/default/production/light-sensor-v1.X.production.o
+_OSCFRQ 893 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_get_ticks_with_lock 1486 0 CODE 0 text14 dist/default/production/light-sensor-v1.X.production.o
+_TRISCbits 14 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_dump_buffer$1020 54 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_RA5PPS 1F15 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_RC0PPS 1F20 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_RC1PPS 1F21 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_RC1REG 119 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_RC1STA 11D 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_RC4PPS 1F24 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_RC5PPS 1F25 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__end_of_SYSTEM_Initialize 1306 0 CODE 0 text51 dist/default/production/light-sensor-v1.X.production.o
+clear_ram0 127C 0 CODE 0 clrtext dist/default/production/light-sensor-v1.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production/light-sensor-v1.X.production.o
+_T0CON0 59E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_T0CON1 59F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__end_of_get_channel_data 1A5E 0 CODE 0 text10 dist/default/production/light-sensor-v1.X.production.o
+_TX1REG 11A 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_TX1STA 11E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_hexpowers 231A 0 STRCODE 0 stringtext2 dist/default/production/light-sensor-v1.X.production.o
+__end_of_printf 518 0 CODE 0 text35 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_i2c_read 16F2 0 CODE 0 text45 dist/default/production/light-sensor-v1.X.production.o
+___int_sp 0 0 STACK 2 stack /tmp/xcbYuP2OG.o
+toupper@c 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_Write 1306 0 CODE 0 text37 dist/default/production/light-sensor-v1.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 8C 0 CODE 0 cinit -
+__end_of_strtol AD6 0 CODE 0 text2 dist/default/production/light-sensor-v1.X.production.o
+__Hidloc 10008 0 IDLOC 5 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr32 0 0 ABS 0 sfr32 -
+__Hsfr33 0 0 ABS 0 sfr33 -
+__Hsfr34 0 0 ABS 0 sfr34 -
+__Hsfr35 0 0 ABS 0 sfr35 -
+__Hsfr36 0 0 ABS 0 sfr36 -
+__Hsfr37 0 0 ABS 0 sfr37 -
+__Hsfr38 0 0 ABS 0 sfr38 -
+__Hsfr39 0 0 ABS 0 sfr39 -
+__Hsfr40 0 0 ABS 0 sfr40 -
+__Hsfr41 0 0 ABS 0 sfr41 -
+__Hsfr42 0 0 ABS 0 sfr42 -
+__Hsfr43 0 0 ABS 0 sfr43 -
+__Hsfr44 0 0 ABS 0 sfr44 -
+__Hsfr45 0 0 ABS 0 sfr45 -
+__Hsfr46 0 0 ABS 0 sfr46 -
+__Hsfr47 0 0 ABS 0 sfr47 -
+__Hsfr48 0 0 ABS 0 sfr48 -
+__Hsfr49 0 0 ABS 0 sfr49 -
+__Hsfr50 0 0 ABS 0 sfr50 -
+__Hsfr51 0 0 ABS 0 sfr51 -
+__Hsfr52 0 0 ABS 0 sfr52 -
+__Hsfr53 0 0 ABS 0 sfr53 -
+__Hsfr54 0 0 ABS 0 sfr54 -
+__Hsfr55 0 0 ABS 0 sfr55 -
+__Hsfr56 0 0 ABS 0 sfr56 -
+__Hsfr57 0 0 ABS 0 sfr57 -
+__Hsfr58 0 0 ABS 0 sfr58 -
+__Hsfr59 0 0 ABS 0 sfr59 -
+__Hsfr60 0 0 ABS 0 sfr60 -
+__Hsfr61 0 0 ABS 0 sfr61 -
+__Hsfr62 0 0 ABS 0 sfr62 -
+__Hsfr63 0 0 ABS 0 sfr63 -
+__Hstack 0 0 STACK 2 stack -
+___lwdiv@counter 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank32 0 0 BANK32 1 bank32 -
+__Hbank33 0 0 BANK33 1 bank33 -
+__Hbank34 0 0 BANK34 1 bank34 -
+__Hbank35 0 0 BANK35 1 bank35 -
+__Hbank36 0 0 BANK36 1 bank36 -
+__Hbank37 0 0 BANK37 1 bank37 -
+__Hbank38 0 0 BANK38 1 bank38 -
+__Hbank39 0 0 BANK39 1 bank39 -
+__Hbank40 0 0 BANK40 1 bank40 -
+__Hbank41 0 0 BANK41 1 bank41 -
+__Hbank42 0 0 BANK42 1 bank42 -
+__Hbank43 0 0 BANK43 1 bank43 -
+__Hbank44 0 0 BANK44 1 bank44 -
+__Hbank45 0 0 BANK45 1 bank45 -
+__Hbank46 0 0 BANK46 1 bank46 -
+__Hbank47 0 0 BANK47 1 bank47 -
+__Hbank48 0 0 BANK48 1 bank48 -
+__Hbank49 0 0 BANK49 1 bank49 -
+__Hbank50 0 0 BANK50 1 bank50 -
+__Hbank51 0 0 BANK51 1 bank51 -
+__Hbank52 0 0 BANK52 1 bank52 -
+__Hbank53 0 0 BANK53 1 bank53 -
+__Hbank54 0 0 BANK54 1 bank54 -
+__Hbank55 0 0 BANK55 1 bank55 -
+__Hbank56 0 0 BANK56 1 bank56 -
+__Hbank57 0 0 BANK57 1 bank57 -
+__Hbank58 0 0 BANK58 1 bank58 -
+__Hbank59 0 0 BANK59 1 bank59 -
+__Hbank60 0 0 BANK60 1 bank60 -
+__Hbank61 0 0 BANK61 1 bank61 -
+__Hbank62 0 0 BANK62 1 bank62 -
+__Hbank63 0 0 BANK63 1 bank63 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_BAUD1CON 11F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10018 0 CONFIG 4 config -
+__end_of_dump_memory_map 132E 0 CODE 0 text15 dist/default/production/light-sensor-v1.X.production.o
+__end_of_i2c_slave_init 1670 0 CODE 0 text12 dist/default/production/light-sensor-v1.X.production.o
+__end_of_isalpha 15F4 0 CODE 0 text5 dist/default/production/light-sensor-v1.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__end_of_isdigit 13F0 0 CODE 0 text38 dist/default/production/light-sensor-v1.X.production.o
+__Lcinit 44 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 5 idloc -
+__end_of_isprint 1414 0 CODE 0 text17 dist/default/production/light-sensor-v1.X.production.o
+__end_of_isspace 14DE 0 CODE 0 text4 dist/default/production/light-sensor-v1.X.production.o
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr32 0 0 ABS 0 sfr32 -
+__Lsfr33 0 0 ABS 0 sfr33 -
+__Lsfr34 0 0 ABS 0 sfr34 -
+__Lsfr35 0 0 ABS 0 sfr35 -
+__Lsfr36 0 0 ABS 0 sfr36 -
+__Lsfr37 0 0 ABS 0 sfr37 -
+__Lsfr38 0 0 ABS 0 sfr38 -
+__Lsfr39 0 0 ABS 0 sfr39 -
+__Lsfr40 0 0 ABS 0 sfr40 -
+__Lsfr41 0 0 ABS 0 sfr41 -
+__Lsfr42 0 0 ABS 0 sfr42 -
+__Lsfr43 0 0 ABS 0 sfr43 -
+__Lsfr44 0 0 ABS 0 sfr44 -
+__Lsfr45 0 0 ABS 0 sfr45 -
+__Lsfr46 0 0 ABS 0 sfr46 -
+__Lsfr47 0 0 ABS 0 sfr47 -
+__Lsfr48 0 0 ABS 0 sfr48 -
+__Lsfr49 0 0 ABS 0 sfr49 -
+__Lsfr50 0 0 ABS 0 sfr50 -
+__Lsfr51 0 0 ABS 0 sfr51 -
+__Lsfr52 0 0 ABS 0 sfr52 -
+__Lsfr53 0 0 ABS 0 sfr53 -
+__Lsfr54 0 0 ABS 0 sfr54 -
+__Lsfr55 0 0 ABS 0 sfr55 -
+__Lsfr56 0 0 ABS 0 sfr56 -
+__Lsfr57 0 0 ABS 0 sfr57 -
+__Lsfr58 0 0 ABS 0 sfr58 -
+__Lsfr59 0 0 ABS 0 sfr59 -
+__Lsfr60 0 0 ABS 0 sfr60 -
+__Lsfr61 0 0 ABS 0 sfr61 -
+__Lsfr62 0 0 ABS 0 sfr62 -
+__Lsfr63 0 0 ABS 0 sfr63 -
+__Lstack 0 0 STACK 2 stack -
+__end_of_isupper 1438 0 CODE 0 text6 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_FramingErrorHandler 6D 0 BANK0 1 nvBANK0 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_OverrunErrorHandler 6B 0 BANK0 1 nvBANK0 dist/default/production/light-sensor-v1.X.production.o
+set_AGAIN@value 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_isupper$1843 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_init 18B8 0 CODE 0 text33 dist/default/production/light-sensor-v1.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 40 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 40 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 22E2 0 STRCODE 0 stringtext1 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext2 231A 0 STRCODE 0 stringtext2 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext3 C64 0 STRCODE 0 stringtext3 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext4 D94 0 STRCODE 0 stringtext4 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext5 2000 0 STRCODE 0 stringtext5 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext6 2056 0 STRCODE 0 stringtext6 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext7 20AC 0 STRCODE 0 stringtext7 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext8 2102 0 STRCODE 0 stringtext8 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext9 2146 0 STRCODE 0 stringtext9 dist/default/production/light-sensor-v1.X.production.o
+__pnvBANK0 69 0 BANK0 1 nvBANK0 dist/default/production/light-sensor-v1.X.production.o
+_SSP1CON1 190 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP1CON2 191 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP1STAT 18F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP2CON1 19A 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP2CON2 19B 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP2STAT 199 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__pstringtext10 2188 0 STRCODE 0 stringtext10 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext11 21CA 0 STRCODE 0 stringtext11 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext12 220C 0 STRCODE 0 stringtext12 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext13 223C 0 STRCODE 0 stringtext13 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext14 2266 0 STRCODE 0 stringtext14 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext15 2288 0 STRCODE 0 stringtext15 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext16 22AA 0 STRCODE 0 stringtext16 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext17 22CC 0 STRCODE 0 stringtext17 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext18 22F6 0 STRCODE 0 stringtext18 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext19 2308 0 STRCODE 0 stringtext19 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext20 232A 0 STRCODE 0 stringtext20 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext21 2338 0 STRCODE 0 stringtext21 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext22 2344 0 STRCODE 0 stringtext22 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext23 2350 0 STRCODE 0 stringtext23 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext24 235C 0 STRCODE 0 stringtext24 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext25 2364 0 STRCODE 0 stringtext25 dist/default/production/light-sensor-v1.X.production.o
+__pstringtext26 0 0 STRCODE 0 stringtext26 dist/default/production/light-sensor-v1.X.production.o
+___lmul 1920 0 CODE 0 text7 dist/default/production/light-sensor-v1.X.production.o
+___wmul 1670 0 CODE 0 text39 dist/default/production/light-sensor-v1.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+int$flags 7E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+isspace@c 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+readSpectralDataOne@data 3A 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_GIE 5F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__S0 11B5 0 ABS 0 - -
+__S1 160 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+calculate_diff@diff 30 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+i2c_slave_interrupt@value 73 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+set_ASTEP@low_value 26 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_i2c_read@buf 21 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_i2c_read@reg 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_as7341_i2c_read 16B0 0 CODE 0 text45 dist/default/production/light-sensor-v1.X.production.o
+i2c_slave_set_register@registerAddress 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__end_of_get_ticks_with_lock 14AE 0 CODE 0 text14 dist/default/production/light-sensor-v1.X.production.o
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
+_SYSTEM_Initialize 12F2 0 CODE 0 text51 dist/default/production/light-sensor-v1.X.production.o
+_isprint$1806 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+_dump_memory_map 131A 0 CODE 0 text15 dist/default/production/light-sensor-v1.X.production.o
+__Lintentry 8 0 CODE 0 intentry -
+_enable_sp_en 17BA 0 CODE 0 text25 dist/default/production/light-sensor-v1.X.production.o
+calculate_diff@now 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcbYuP2OG.o
+strtol@a 35 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+strtol@c 3A 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+strtol@s 39 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+enable_smux@state 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__pdataBANK0 6F 0 BANK0 1 dataBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_start_measurement@data 4F 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_enable_sp_en$1194 25 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+__Lstringtext5 0 0 ABS 0 stringtext5 -
+__Lstringtext6 0 0 ABS 0 stringtext6 -
+__Lstringtext7 0 0 ABS 0 stringtext7 -
+__Lstringtext8 0 0 ABS 0 stringtext8 -
+__Lstringtext9 0 0 ABS 0 stringtext9 -
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production/light-sensor-v1.X.production.o
+_PIE0bits 716 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_PIE3bits 719 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+isprint@c 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__ptext10 19F2 0 CODE 0 text10 dist/default/production/light-sensor-v1.X.production.o
+__ptext11 12CC 0 CODE 0 text11 dist/default/production/light-sensor-v1.X.production.o
+__ptext12 1632 0 CODE 0 text12 dist/default/production/light-sensor-v1.X.production.o
+__ptext13 138E 0 CODE 0 text13 dist/default/production/light-sensor-v1.X.production.o
+__ptext14 1486 0 CODE 0 text14 dist/default/production/light-sensor-v1.X.production.o
+__ptext15 131A 0 CODE 0 text15 dist/default/production/light-sensor-v1.X.production.o
+__ptext16 AD6 0 CODE 0 text16 dist/default/production/light-sensor-v1.X.production.o
+__ptext17 13F0 0 CODE 0 text17 dist/default/production/light-sensor-v1.X.production.o
+__ptext18 1A5E 0 CODE 0 text18 dist/default/production/light-sensor-v1.X.production.o
+__ptext19 1D84 0 CODE 0 text19 dist/default/production/light-sensor-v1.X.production.o
+__ptext20 1E2E 0 CODE 0 text20 dist/default/production/light-sensor-v1.X.production.o
+__ptext21 15F4 0 CODE 0 text21 dist/default/production/light-sensor-v1.X.production.o
+__ptext22 EBC 0 CODE 0 text22 dist/default/production/light-sensor-v1.X.production.o
+__ptext23 1F0E 0 CODE 0 text23 dist/default/production/light-sensor-v1.X.production.o
+__ptext24 132E 0 CODE 0 text24 dist/default/production/light-sensor-v1.X.production.o
+__ptext25 17BA 0 CODE 0 text25 dist/default/production/light-sensor-v1.X.production.o
+__ptext26 154A 0 CODE 0 text26 dist/default/production/light-sensor-v1.X.production.o
+__ptext27 1288 0 CODE 0 text27 dist/default/production/light-sensor-v1.X.production.o
+__ptext28 FAE 0 CODE 0 text28 dist/default/production/light-sensor-v1.X.production.o
+__ptext29 1734 0 CODE 0 text29 dist/default/production/light-sensor-v1.X.production.o
+__ptext30 12BA 0 CODE 0 text30 dist/default/production/light-sensor-v1.X.production.o
+__ptext31 1514 0 CODE 0 text31 dist/default/production/light-sensor-v1.X.production.o
+__ptext32 13AA 0 CODE 0 text32 dist/default/production/light-sensor-v1.X.production.o
+__ptext33 1854 0 CODE 0 text33 dist/default/production/light-sensor-v1.X.production.o
+__ptext34 1B46 0 CODE 0 text34 dist/default/production/light-sensor-v1.X.production.o
+__ptext35 8C 0 CODE 0 text35 dist/default/production/light-sensor-v1.X.production.o
+__ptext36 1270 0 CODE 0 text36 dist/default/production/light-sensor-v1.X.production.o
+__ptext37 1306 0 CODE 0 text37 dist/default/production/light-sensor-v1.X.production.o
+__ptext38 13CC 0 CODE 0 text38 dist/default/production/light-sensor-v1.X.production.o
+__ptext39 1670 0 CODE 0 text39 dist/default/production/light-sensor-v1.X.production.o
+__ptext40 1988 0 CODE 0 text40 dist/default/production/light-sensor-v1.X.production.o
+__ptext41 1ACC 0 CODE 0 text41 dist/default/production/light-sensor-v1.X.production.o
+__ptext42 18B8 0 CODE 0 text42 dist/default/production/light-sensor-v1.X.production.o
+__ptext43 14DE 0 CODE 0 text43 dist/default/production/light-sensor-v1.X.production.o
+__ptext44 16F2 0 CODE 0 text44 dist/default/production/light-sensor-v1.X.production.o
+__ptext45 16B0 0 CODE 0 text45 dist/default/production/light-sensor-v1.X.production.o
+__ptext46 145E 0 CODE 0 text46 dist/default/production/light-sensor-v1.X.production.o
+__ptext47 135C 0 CODE 0 text47 dist/default/production/light-sensor-v1.X.production.o
+__ptext48 1344 0 CODE 0 text48 dist/default/production/light-sensor-v1.X.production.o
+__ptext49 12A8 0 CODE 0 text49 dist/default/production/light-sensor-v1.X.production.o
+__ptext50 1580 0 CODE 0 text50 dist/default/production/light-sensor-v1.X.production.o
+__ptext51 12F2 0 CODE 0 text51 dist/default/production/light-sensor-v1.X.production.o
+__ptext52 12DE 0 CODE 0 text52 dist/default/production/light-sensor-v1.X.production.o
+__ptext53 17FE 0 CODE 0 text53 dist/default/production/light-sensor-v1.X.production.o
+__ptext54 1296 0 CODE 0 text54 dist/default/production/light-sensor-v1.X.production.o
+__ptext55 1776 0 CODE 0 text55 dist/default/production/light-sensor-v1.X.production.o
+__ptext56 1264 0 CODE 0 text56 dist/default/production/light-sensor-v1.X.production.o
+__ptext57 1258 0 CODE 0 text57 dist/default/production/light-sensor-v1.X.production.o
+__ptext58 124C 0 CODE 0 text58 dist/default/production/light-sensor-v1.X.production.o
+__ptext60 1CE4 0 CODE 0 text60 dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_start_measurement 1F0E 0 CODE 0 text20 dist/default/production/light-sensor-v1.X.production.o
+__end_of_PIN_MANAGER_Initialize 1854 0 CODE 0 text53 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_ErrorHandler 69 0 BANK0 1 nvBANK0 dist/default/production/light-sensor-v1.X.production.o
+___lwdiv 1ACC 0 CODE 0 text41 dist/default/production/light-sensor-v1.X.production.o
+___lwmod 1988 0 CODE 0 text40 dist/default/production/light-sensor-v1.X.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank32 0 0 BANK32 1 bank32 -
+__Lbank33 0 0 BANK33 1 bank33 -
+__Lbank34 0 0 BANK34 1 bank34 -
+__Lbank35 0 0 BANK35 1 bank35 -
+__Lbank36 0 0 BANK36 1 bank36 -
+__Lbank37 0 0 BANK37 1 bank37 -
+__Lbank38 0 0 BANK38 1 bank38 -
+__Lbank39 0 0 BANK39 1 bank39 -
+__Lbank40 0 0 BANK40 1 bank40 -
+__Lbank41 0 0 BANK41 1 bank41 -
+__Lbank42 0 0 BANK42 1 bank42 -
+__Lbank43 0 0 BANK43 1 bank43 -
+__Lbank44 0 0 BANK44 1 bank44 -
+__Lbank45 0 0 BANK45 1 bank45 -
+__Lbank46 0 0 BANK46 1 bank46 -
+__Lbank47 0 0 BANK47 1 bank47 -
+__Lbank48 0 0 BANK48 1 bank48 -
+__Lbank49 0 0 BANK49 1 bank49 -
+__Lbank50 0 0 BANK50 1 bank50 -
+__Lbank51 0 0 BANK51 1 bank51 -
+__Lbank52 0 0 BANK52 1 bank52 -
+__Lbank53 0 0 BANK53 1 bank53 -
+__Lbank54 0 0 BANK54 1 bank54 -
+__Lbank55 0 0 BANK55 1 bank55 -
+__Lbank56 0 0 BANK56 1 bank56 -
+__Lbank57 0 0 BANK57 1 bank57 -
+__Lbank58 0 0 BANK58 1 bank58 -
+__Lbank59 0 0 BANK59 1 bank59 -
+__Lbank60 0 0 BANK60 1 bank60 -
+__Lbank61 0 0 BANK61 1 bank61 -
+__Lbank62 0 0 BANK62 1 bank62 -
+__Lbank63 0 0 BANK63 1 bank63 -
+__pmaintext 518 0 CODE 0 maintext dist/default/production/light-sensor-v1.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+___lmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+_printf 8C 0 CODE 0 text35 dist/default/production/light-sensor-v1.X.production.o
+___wmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+set_bank@state 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_SetErrorHandler 124C 0 CODE 0 text58 dist/default/production/light-sensor-v1.X.production.o
+I2C_Read@temp 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__end_of_EUSART1_SetErrorHandler 1258 0 CODE 0 text58 dist/default/production/light-sensor-v1.X.production.o
+as7341_start_measurement@channel 4E 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+main@data1 B5 0 BANK1 1 cstackBANK1 dist/default/production/light-sensor-v1.X.production.o
+main@data2 A9 0 BANK1 1 cstackBANK1 dist/default/production/light-sensor-v1.X.production.o
+___lwdiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_strtol 8C2 0 CODE 0 text2 dist/default/production/light-sensor-v1.X.production.o
+main@value A0 0 BANK1 1 cstackBANK1 dist/default/production/light-sensor-v1.X.production.o
+__end_of_control_LED 1ACC 0 CODE 0 text18 dist/default/production/light-sensor-v1.X.production.o
+set_ASTEP@high_value 25 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+as7341_i2c_write@data 21 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_as7341_smux_cmd_config 1288 0 CODE 0 text27 dist/default/production/light-sensor-v1.X.production.o
+__end_of_EUSART1_SetFramingErrorHandler 1264 0 CODE 0 text57 dist/default/production/light-sensor-v1.X.production.o
+?_get_channel_data 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_EUSART1_SetOverrunErrorHandler 1270 0 CODE 0 text56 dist/default/production/light-sensor-v1.X.production.o
+__end_of_EUSART1_Write 131A 0 CODE 0 text37 dist/default/production/light-sensor-v1.X.production.o
+get_channel_data@channelData 2B 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_SSP1CLKPPS 1EC5 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+?_readSpectralDataOne 2D 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+?_readSpectralDataTwo 2D 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_OSCCON1 88D 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_OSCCON3 88F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_OSCTUNE 892 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP1DATPPS 1EC6 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__end_of_i2c_master_init 13AA 0 CODE 0 text13 dist/default/production/light-sensor-v1.X.production.o
+main@buffer A1 0 BANK1 1 cstackBANK1 dist/default/production/light-sensor-v1.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 76 0 COMMON 1 bssCOMMON dist/default/production/light-sensor-v1.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+_PIR0bits 70C 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+I2C_Write@data 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_PIR3bits 70F 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__Lend_init 40 0 CODE 0 end_init -
+__end_of_toupper 145E 0 CODE 0 text3 dist/default/production/light-sensor-v1.X.production.o
+__end_of_enable_sp_en 17FE 0 CODE 0 text25 dist/default/production/light-sensor-v1.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+printf@ap 46 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+printf@cp 42 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+end_of_initialization 84 0 CODE 0 cinit dist/default/production/light-sensor-v1.X.production.o
+__Hintentry 40 0 CODE 0 intentry -
+_calculate_diff 1D84 0 CODE 0 text19 dist/default/production/light-sensor-v1.X.production.o
+_TX1STAbits 11E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+as7341_write_byte@value 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___lwdiv@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+?___lwdiv 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+?___lwmod 27 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+_set_bank 14DE 0 CODE 0 text43 dist/default/production/light-sensor-v1.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+control_LED@data 27 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_i2c_slave_set_register 12CC 0 CODE 0 text11 dist/default/production/light-sensor-v1.X.production.o
+_set_GPIO_mode 15F4 0 CODE 0 text21 dist/default/production/light-sensor-v1.X.production.o
+_printf$1520 3F 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_tmr0_init 138E 0 CODE 0 text1 dist/default/production/light-sensor-v1.X.production.o
+get_ticks_with_lock@result 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__ptext1 1374 0 CODE 0 text1 dist/default/production/light-sensor-v1.X.production.o
+__ptext2 8C2 0 CODE 0 text2 dist/default/production/light-sensor-v1.X.production.o
+__ptext3 1438 0 CODE 0 text3 dist/default/production/light-sensor-v1.X.production.o
+__ptext4 14AE 0 CODE 0 text4 dist/default/production/light-sensor-v1.X.production.o
+__ptext5 15BA 0 CODE 0 text5 dist/default/production/light-sensor-v1.X.production.o
+__ptext6 1414 0 CODE 0 text6 dist/default/production/light-sensor-v1.X.production.o
+__ptext7 1920 0 CODE 0 text7 dist/default/production/light-sensor-v1.X.production.o
+__ptext8 1C5A 0 CODE 0 text8 dist/default/production/light-sensor-v1.X.production.o
+__ptext9 1BD0 0 CODE 0 text9 dist/default/production/light-sensor-v1.X.production.o
+as7341_i2c_write@reg 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_set_bank 1514 0 CODE 0 text43 dist/default/production/light-sensor-v1.X.production.o
+_currentRegister 77 0 COMMON 1 bssCOMMON dist/default/production/light-sensor-v1.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_currentState 76 0 COMMON 1 bssCOMMON dist/default/production/light-sensor-v1.X.production.o
+_isalpha 15BA 0 CODE 0 text5 dist/default/production/light-sensor-v1.X.production.o
+_i2c_master_init 138E 0 CODE 0 text13 dist/default/production/light-sensor-v1.X.production.o
+_isdigit 13CC 0 CODE 0 text38 dist/default/production/light-sensor-v1.X.production.o
+_isprint 13F0 0 CODE 0 text17 dist/default/production/light-sensor-v1.X.production.o
+_isspace 14AE 0 CODE 0 text4 dist/default/production/light-sensor-v1.X.production.o
+_isupper 1414 0 CODE 0 text6 dist/default/production/light-sensor-v1.X.production.o
+enable_sp_en@state 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+__Hstringtext5 0 0 ABS 0 stringtext5 -
+__Hstringtext6 0 0 ABS 0 stringtext6 -
+__Hstringtext7 0 0 ABS 0 stringtext7 -
+__Hstringtext8 0 0 ABS 0 stringtext8 -
+__Hstringtext9 0 0 ABS 0 stringtext9 -
+as7341_power_enable@flag 50 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_tmr0_init 1374 0 CODE 0 text1 dist/default/production/light-sensor-v1.X.production.o
+_SLRCONA 1F3B 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SLRCONC 1F51 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+___heap_hi 0 0 ABS 0 - /tmp/xcbYuP2OG.o
+___heap_lo 0 0 ABS 0 - /tmp/xcbYuP2OG.o
+__end_of__initialization 84 0 CODE 0 cinit dist/default/production/light-sensor-v1.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+calculate_diff@prev_ticks 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__pidataBANK0 FFE 0 CODE 0 idataBANK0 dist/default/production/light-sensor-v1.X.production.o
+strtol@endptr 2C 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_calculate_diff 1E2E 0 CODE 0 text19 dist/default/production/light-sensor-v1.X.production.o
+_SP1BRGH 11C 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SP1BRGL 11B 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 190 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP1CON2bits 191 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+as7341_power_enable@regVal 55 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_isspace$1840 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_enable_smux 154A 0 CODE 0 text26 dist/default/production/light-sensor-v1.X.production.o
+___lmul@product 28 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+___lmul@multiplicand 24 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+?_calculate_diff 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_SSP1ADD 18D 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP1BUF 18C 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP1MSK 18E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP2ADD 197 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP2BUF 196 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__Hend_init 44 0 CODE 0 end_init -
+readSpectralDataTwo@data 3A 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_SetFramingErrorHandler 1258 0 CODE 0 text57 dist/default/production/light-sensor-v1.X.production.o
+_EUSART1_SetOverrunErrorHandler 1264 0 CODE 0 text56 dist/default/production/light-sensor-v1.X.production.o
+_dump_buffer AD6 0 CODE 0 text16 dist/default/production/light-sensor-v1.X.production.o
+putch@txData 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+__end_of_main 8C2 0 CODE 0 maintext dist/default/production/light-sensor-v1.X.production.o
+isdigit@c 75 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+printf@idx 3E 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+printf@len 47 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+printf@val 44 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__end_of_dpowers 22F6 0 STRCODE 0 stringtext1 dist/default/production/light-sensor-v1.X.production.o
+_OSCEN 891 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_isdigit$1803 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_TMR0H 59D 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_TMR0L 59C 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_TRISA 12 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_TRISC 14 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+__end_of_putch 127C 0 CODE 0 text36 dist/default/production/light-sensor-v1.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_putch 1270 0 CODE 0 text36 dist/default/production/light-sensor-v1.X.production.o
+_ticks 62 0 BANK0 1 bssBANK0 dist/default/production/light-sensor-v1.X.production.o
+enable_sp_en@regVal 27 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+enable_smux@regVal 23 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production/light-sensor-v1.X.production.o
+_as7341_config FAE 0 CODE 0 text28 dist/default/production/light-sensor-v1.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__end_of_EUSART1_Initialize 17BA 0 CODE 0 text55 dist/default/production/light-sensor-v1.X.production.o
+__end_of_OSCILLATOR_Initialize 12A8 0 CODE 0 text54 dist/default/production/light-sensor-v1.X.production.o
+dump_buffer@buffer 53 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+__initialization 44 0 CODE 0 cinit dist/default/production/light-sensor-v1.X.production.o
+__end_of_set_AGAIN 13CC 0 CODE 0 text32 dist/default/production/light-sensor-v1.X.production.o
+__end_of_set_ASTEP 154A 0 CODE 0 text31 dist/default/production/light-sensor-v1.X.production.o
+__end_of_set_ATIME 12CC 0 CODE 0 text30 dist/default/production/light-sensor-v1.X.production.o
+__pbssBANK0 5E 0 BANK0 1 bssBANK0 dist/default/production/light-sensor-v1.X.production.o
+__pbssBANK1 C1 0 BANK1 1 bssBANK1 dist/default/production/light-sensor-v1.X.production.o
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/default/production/light-sensor-v1.X.production.o
+__pdataCOMMON 79 0 COMMON 1 dataCOMMON dist/default/production/light-sensor-v1.X.production.o
+strtol@base 2D 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+strtol@sign 34 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_slaveData 120 0 BANK2 1 bssBANK2 dist/default/production/light-sensor-v1.X.production.o
+__end_of_as7341_smux_cmd_config 1296 0 CODE 0 text27 dist/default/production/light-sensor-v1.X.production.o
+_SSP2CLKPPS 1EC8 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_ANSELCbits 1F4E 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+_SSP2DATPPS 1EC9 0 ABS 0 - dist/default/production/light-sensor-v1.X.production.o
+EUSART1_SetOverrunErrorHandler@interruptHandler 74 0 COMMON 1 cstackCOMMON dist/default/production/light-sensor-v1.X.production.o
+_i2c_slave_interrupt 1CE4 0 CODE 0 text60 dist/default/production/light-sensor-v1.X.production.o
+?_get_ticks_with_lock 20 0 BANK0 1 cstackBANK0 dist/default/production/light-sensor-v1.X.production.o
+_OSCILLATOR_Initialize 1296 0 CODE 0 text54 dist/default/production/light-sensor-v1.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 9BA 1374 D 2
+text3 0 A1C 1438 13 2
+text4 0 A57 14AE 18 2
+text5 0 ADD 15BA 1D 2
+text6 0 A0A 1414 12 2
+text7 0 C90 1920 34 2
+text8 0 E2D 1C5A 45 2
+text9 0 DE8 1BD0 45 2
+text10 0 CF9 19F2 36 2
+text11 0 966 12CC 9 2
+text12 0 B19 1632 1F 2
+text13 0 9C7 138E E 2
+text14 0 A43 1486 14 2
+text15 0 98D 131A A 2
+text17 0 9F8 13F0 12 2
+text18 0 D2F 1A5E 37 2
+text19 0 EC2 1D84 55 2
+text20 0 F17 1E2E 70 2
+text21 0 AFA 15F4 1F 2
+text22 0 75E EBC A2 2
+text23 0 F87 1F0E 79 2
+text24 0 997 132E B 2
+text25 0 BDD 17BA 22 2
+text26 0 AA5 154A 1B 2
+text27 0 944 1288 7 2
+text29 0 B9A 1734 21 2
+text30 0 95D 12BA 9 2
+text31 0 A8A 1514 1B 2
+text32 0 9D5 13AA 11 2
+text33 0 C2A 1854 32 2
+text34 0 DA3 1B46 45 2
+text36 0 938 1270 6 2
+text37 0 983 1306 A 2
+text38 0 9E6 13CC 12 2
+text39 0 B38 1670 20 2
+text40 0 CC4 1988 35 2
+text41 0 D66 1ACC 3D 2
+text42 0 C5C 18B8 34 2
+text43 0 A6F 14DE 1B 2
+text44 0 B79 16F2 21 2
+text45 0 B58 16B0 21 2
+text46 0 A2F 145E 14 2
+text47 0 9AE 135C C 2
+text48 0 9A2 1344 C 2
+text49 0 954 12A8 9 2
+text50 0 AC0 1580 1D 2
+text51 0 979 12F2 A 2
+text52 0 96F 12DE A 2
+text53 0 BFF 17FE 2B 2
+text54 0 94B 1296 9 2
+text55 0 BBB 1776 22 2
+text56 0 932 1264 6 2
+text57 0 92C 1258 6 2
+text58 0 926 124C 6 2
+text60 0 E72 1CE4 50 2
+cstackCOMMON 1 70 70 A 1
+cstackBANK0 1 20 20 50 1
+cstackBANK1 1 A0 A0 25 1
+stringtext3 0 632 C64 12C 2
+stringtext5 0 1000 2000 1B5 2
+intentry 0 4 8 62E 2
+reset_vec 0 0 0 2 2
+bssBANK2 1 120 120 40 1
+clrtext 0 93E 127C 6 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

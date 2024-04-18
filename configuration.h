@@ -1,0 +1,16 @@
+#ifndef CONFIGURATION_H
+#define CONFIGURATION_H
+
+
+// IIIYYMXXXX
+// I = DEVICE ID
+// Y = YEAR
+// M = MONTH
+// X = NUMBER
+//#define DEVICE_SERIAL "BB01790002"
+#define DEVICE_SERIAL "AF017A0001"
+
+
+
+
+#endif

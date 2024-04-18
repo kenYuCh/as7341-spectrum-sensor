@@ -1,0 +1,254 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include "mcc_generated_files/mcc.h"
+#include "configuration_bits.h"
+#include "configuration.h"
+#include "tmr0.h"
+#include "my_helpers.h"
+#include "i2c_master.h"
+#include "i2c_slave.h"
+#include "eusart1.h"
+
+
+
+
+
+volatile uint32_t ticks = 0;
+uint32_t get_ticks_with_lock(){
+    GIE = 0;
+    uint32_t result = ticks;
+    GIE = 1;
+    return result;
+}
+
+
+uint32_t calculate_diff(uint32_t now, uint32_t prev_ticks) {
+    uint32_t diff;
+    if (now >= prev_ticks) {
+        diff = now - prev_ticks;
+    } else {
+        // Handling overflow situation
+        diff = (UINT32_MAX - prev_ticks) + now + 1;
+    }
+    return diff;
+}
+
+
+
+// Variables
+bool ack = 0;
+bool nack = 1;
+
+typedef struct {
+    uint8_t byte1;
+    uint8_t byte2;
+    uint8_t byte3;
+} Byte_Data;
+
+
+Byte_Data measurement_soil_rh(){
+    
+    Byte_Data byte_Data;
+    
+    uint8_t byte1 = 0x00; // Data (MSB)
+    uint8_t byte2 = 0x00; // Data (LSB)
+    uint8_t byte3 = 0x00; // Checksum
+
+    I2C_Start();
+    I2C_Write(0x80);        // 1000 0000 SHT25 device address + Write(0)
+    I2C_Write(0xE5);        // 1110 0101 = rh address
+    I2C_Start();
+    I2C_Write(0x81);        // 1000 0001 SHT25 device address + Read(1)
+    byte1 = I2C_Read(ack);  // Data (MSB) 
+    byte2 = I2C_Read(ack);  // Data (LSB) 010100(LSB)10(State) 
+    byte3 = I2C_Read(nack); // 01100100 0x64 Checksum Nack
+    I2C_Stop();
+    byte_Data.byte1 = byte1;           
+    byte_Data.byte2 = (byte2 & 0xFC);   // LSB 01010010 => 0101 0000 , the last bits of LSB, must be set to ?0? before calculating physical values.
+    byte_Data.byte3 = byte3;       
+    
+    return byte_Data;
+};
+
+Byte_Data measurement_soil_temp(){
+    Byte_Data byte_Data;
+    // 
+    uint8_t byte1 = 0x00; // Data (MSB:most significant bit)
+    uint8_t byte2 = 0x00; // Data (LSB)
+    uint8_t byte3 = 0x00; // Checksum
+
+    I2C_Start();
+    I2C_Write(0x80); // 1000 0000 SHT25 device address + Write(0)
+    I2C_Write(0xE3); // 1110 0011 = TEMP address
+    I2C_Start();
+    I2C_Write(0x81); // 1000 0001 SHT25 device address + Read(1)
+    byte1 = I2C_Read(ack);  
+    byte2 = I2C_Read(ack);  
+    byte3 = I2C_Read(nack); 
+    I2C_Stop();
+    byte_Data.byte1 = byte1;
+    byte_Data.byte2 = (byte2 & 0xFC);
+    byte_Data.byte3 = byte3;
+    return byte_Data;
+};
+
+void soft_reset()
+{
+    uint8_t byte1 = 0x00; // 
+    uint8_t byte2 = 0x00; // 
+    I2C_Start();
+    I2C_Write(0x80); // 1000 0000 SHT25 device address + Write(0)
+    I2C_Write(0xFE); // 1111 1110 = FE soil sensor reset
+    byte1 = I2C_Read(ack);  
+    byte2 = I2C_Read(ack);  
+    I2C_Stop();
+}
+
+
+Byte_Data user_register(){
+    Byte_Data byte_Data;
+    // 
+    uint8_t byte1 = 0x00; // Data (MSB:most significant bit)
+    uint8_t byte2 = 0x00; // Data (LSB)
+    uint8_t byte3 = 0x00; // Checksum
+
+    I2C_Start();
+    I2C_Write(0x80); // 1000 0000 SHT25 device address + Write(0)
+    I2C_Write(0xE3); // 1110 0011 = TEMP address
+    I2C_Start();
+    I2C_Write(0x81); // 1000 0001 SHT25 device address + Read(1)
+    byte1 = I2C_Read(ack);  
+    byte2 = I2C_Read(ack);  
+    byte3 = I2C_Read(nack); 
+    I2C_Stop();
+    byte_Data.byte1 = byte1;
+    byte_Data.byte2 = (byte2 & 0xFC);
+    byte_Data.byte3 = byte3;
+    return byte_Data;
+};
+
+
+#define INTERRUPT_GlobalInterruptEnable() (INTCONbits.GIE = 1)
+#define INTERRUPT_GlobalInterruptDisable() (INTCONbits.GIE = 0)
+#define INTERRUPT_PeripheralInterruptEnable() (INTCONbits.PEIE = 1)
+#define INTERRUPT_PeripheralInterruptDisable() (INTCONbits.PEIE = 0)
+
+void __interrupt() INTERRUPT_InterruptManager() {
+    // timer0 interrupt
+    if (PIR0bits.TMR0IF) {
+        PIR0bits.TMR0IF = 0;
+        //IO_RC2_Toggle();
+        ticks++;
+    }
+    
+    // I2C slave interrupt
+    if (PIR3bits.SSP1IF == 1) {
+        PIR3bits.SSP1IF = 0;
+        i2c_slave_interrupt();
+    }
+}
+
+#define set_RA5_as_UART_TX()              (RA5PPS = 0x0F)
+#define reset_RA5_peripheral_pin_select() (RA5PPS = 0x00)
+
+void main() {
+
+
+    SYSTEM_Initialize();
+    tmr0_init();
+    EUSART1_Initialize();
+    __delay_ms(500);
+
+    reset_RA5_peripheral_pin_select();
+    set_RA5_as_UART_TX();
+
+    INTERRUPT_GlobalInterruptEnable();
+    INTERRUPT_PeripheralInterruptEnable();
+
+    
+    i2c_master_init();
+    i2c_slave_init();
+    
+    
+    __delay_ms(500);
+    printf("Hello Soil Sensor\r\n");
+    printf("sn: %s\r\n", DEVICE_SERIAL);
+
+    while (1){
+        
+        uint32_t now = get_ticks_with_lock();
+        static uint32_t prev_ticks1 = 0;
+        if(calculate_diff(now, prev_ticks1) >= 5000){
+            prev_ticks1 = now;
+
+            /*Byte_Data rh_byte = measurement_soil_rh();
+            uint32_t rh_combinedValue = ((uint16_t)rh_byte.byte1 << 8) | rh_byte.byte2;
+            float rh_value = -6 + ((125 * (float)rh_combinedValue) / 65536); // (125*(byte/65536))*100
+            uint16_t rh = rh_value * 100;
+            
+            Byte_Data temp_byte = measurement_soil_temp();
+            uint32_t temp_combinedValue = ((uint16_t)temp_byte.byte1 << 8) | temp_byte.byte2;
+            float temp_value = -46.85 + (175.72 * (uint32_t)temp_combinedValue/65536);
+            uint16_t temp = temp_value * 100;
+             */
+
+            
+            
+            uint16_t temp = 200;
+            uint16_t rh = 201;
+            
+            printf("SHT-25\r\n");
+            printf("[%lu] TEMP: %d.%02d \r\n", now, temp/100, temp%100);
+            printf("[%lu] RH: %d.%02d \r\n", now, rh/100, rh%100);
+
+            
+            INTERRUPT_GlobalInterruptDisable();
+            i2c_slave_set_register(0x00, (temp >> 8) & 0xFF);
+            i2c_slave_set_register(0x01, (temp >> 0) & 0xFF);
+            i2c_slave_set_register(0x02, (rh >> 8) & 0xFF);
+            i2c_slave_set_register(0x03, (rh >> 0) & 0xFF);
+            
+            for (uint8_t i = 0; i < 5; i++) {
+                char buffer[3];
+                buffer[0] = DEVICE_SERIAL[i * 2];
+                buffer[1] = DEVICE_SERIAL[i * 2 + 1];
+                buffer[2] = '\0';
+                uint8_t value = strtol(buffer, NULL, 16);
+                i2c_slave_set_register(57u + i, value);
+            }
+
+            INTERRUPT_GlobalInterruptEnable();
+            dump_memory_map();            
+        }
+        
+
+    }
+    
+ 
+}
+
+
+/*
+ * Handy Note
+ * 2023-09-08
+ *  modify from simuAIR
+ *  printf output DONE.
+ * 2023-09-14
+ *  RC2 toggle output DONE
+ *  1ms timebase toggle DONE
+ * 2023-09-15
+ *  get Temperature response.
+ * 2023-09-20
+ *  add rh measurement function.
+ *  add soft_reset - sensor reset.
+ *  add user_register
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+// 
