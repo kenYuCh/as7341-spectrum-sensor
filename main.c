@@ -162,36 +162,5 @@ void main() {
 }
 
 
-/*
- * Handy Note
- * 2023-09-08
- *      modify from simuAIR
- *      printf output DONE.
- * 2023-09-14
- *      RC2 toggle output DONE
- *      1ms timebase toggle DONE
- * 2023-09-15
- *      get Temperature response.
- * 2023-09-20
- *      add rh measurement function.
- *      add soft_reset - sensor reset.
- *      add user_register
- * 2023-10-03
- *      merge with 4-20 current sensor, to workaround simuAIR i2c slave interface problem. 
- *      merge with soil v1, uart output from RA5
- *      change compiler version from 1.45 to 2.40 !!!
- * 2023-10-04
- *      v1 + xc8 v1.45 -> master OK, slave NG
- *      v2 + xc8 v1.40 -> master NG, slave OK
- *      merge v1 and v2 to v3
- *      v3 + xc8 v1.45 -> master OK, slave NG
- *      v3 + xc8 v1.40 -> master NG, slave OK
- *      add mcc generated code i2c2_master.c/.h and i2c2_master_example.c/.h
- * 2023-10-05
- *      RC4 -> SCL2
- *      RC5 -> SDA2
- *      xc8 v2.40
- * 
- */
 
 // 
